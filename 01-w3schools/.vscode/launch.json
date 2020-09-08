@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Jv04Constructor",
+            "request": "launch",
+            "mainClass": "Jv04Constructor",
+            "projectName": "01-w3schools_b07cffc1"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Jv03Class02",
             "request": "launch",
             "mainClass": "Jv03Class02",
