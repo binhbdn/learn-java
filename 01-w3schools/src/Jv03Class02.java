@@ -12,7 +12,7 @@ class Jv03Class02 {
 
         // Static methods can be called without creating objects
         Jv03Class01.myStaticMethod(); // Call the static method
-        myObj2.myStaticMethod(); // Call the static method on the object !!!
+        // myObj2.myStaticMethod(); // Should not Call the static method on the object !!!
 
         // Public methods must be called by creating objects
         // Jv03Class01.myPublicMethod(); // Call the public method -> This would compile an error
