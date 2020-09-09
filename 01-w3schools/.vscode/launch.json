@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Jv14Scanner",
+            "request": "launch",
+            "mainClass": "Jv14Scanner",
+            "projectName": "01-w3schools_b07cffc1"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Jv13Enum01",
             "request": "launch",
             "mainClass": "Jv13Enum01",
