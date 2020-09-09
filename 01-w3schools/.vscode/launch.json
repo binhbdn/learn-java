@@ -8,7 +8,7 @@
             "type": "java",
             "name": "CodeLens (Launch) - JvTime",
             "request": "launch",
-            "mainClass": "JvTime",
+            "mainClass": "Jv15Time",
             "projectName": "01-w3schools_b07cffc1"
         },
         {

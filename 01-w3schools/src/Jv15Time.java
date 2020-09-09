@@ -17,7 +17,7 @@ import java.time.LocalTime; // import the LocalTime class
 import java.time.LocalDateTime; // import the LocalDateTime class
 import java.time.format.DateTimeFormatter; // Import the DateTimeFormatter class
 
-class JvTime {
+class Jv15Time {
     public static void main(String[] args) {
         LocalDate myObj1 = LocalDate.now(); // Create a date object
         System.out.println(myObj1); // Display the current date
