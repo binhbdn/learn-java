@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Jv23RegEx",
+            "request": "launch",
+            "mainClass": "Jv23RegEx",
+            "projectName": "01-w3schools_b07cffc1"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Jv22Exception",
             "request": "launch",
             "mainClass": "Jv22Exception",
