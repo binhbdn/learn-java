@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Jv24Thread02",
+            "request": "launch",
+            "mainClass": "Jv24Thread02",
+            "projectName": "01-w3schools_b07cffc1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Jv24Thread01",
+            "request": "launch",
+            "mainClass": "Jv24Thread01",
+            "projectName": "01-w3schools_b07cffc1"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Jv23RegEx",
             "request": "launch",
             "mainClass": "Jv23RegEx",
