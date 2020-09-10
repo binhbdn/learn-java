@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Jv27AddTwoNumbers",
+            "request": "launch",
+            "mainClass": "Jv27AddTwoNumbers",
+            "projectName": "01-w3schools_b07cffc1"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Jv26FileHandling",
             "request": "launch",
             "mainClass": "Jv26FileHandling",
