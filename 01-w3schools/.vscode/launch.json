@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Jv25Lambda03",
+            "request": "launch",
+            "mainClass": "Jv25Lambda03",
+            "projectName": "01-w3schools_b07cffc1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Jv25Lambda02",
+            "request": "launch",
+            "mainClass": "Jv25Lambda02",
+            "projectName": "01-w3schools_b07cffc1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Jv25Lambda01",
+            "request": "launch",
+            "mainClass": "Jv25Lambda01",
+            "projectName": "01-w3schools_b07cffc1"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Jv24Thread02",
             "request": "launch",
             "mainClass": "Jv24Thread02",
