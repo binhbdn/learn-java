@@ -1,8 +1,14 @@
 // https://www.hackerrank.com/challenges/java-strings-introduction
 
+<<<<<<< HEAD
 import java.util.Scanner;
 
 class Solution201 {
+=======
+import java.util.*;
+
+public class Solution201 {
+>>>>>>> 625db3ded25f59626ec26621380b9cacaefa6086
   public static void main(String[] args) {
     Scanner sc=new Scanner(System.in);
     String A=sc.next();
@@ -20,4 +26,8 @@ class Solution201 {
     */
     System.out.println(A.substring(0, 1).toUpperCase()+A.substring(1)+" "+B.substring(0, 1).toUpperCase()+B.substring(1));
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 625db3ded25f59626ec26621380b9cacaefa6086
