@@ -22,8 +22,7 @@
 | 15 | [Java Substring](https://www.hackerrank.com/challenges/java-substring) | [Solution202.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/2-string/Solution202.java) |
 | 16 | [Java Substring Comparisons](https://www.hackerrank.com/challenges/java-string-compare) | [Solution203.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/2-string/Solution203.java) |
 | 17 | [Java String Reverse](https://www.hackerrank.com/challenges/java-string-reverse) | [Solution204.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/2-string/Solution204.java) |
-| 18 | [Java Anagrams](https://www.hackerrank.com/challenges/java-anagrams) | [Solution205.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/2-string/Solution205.java) |
-| 19 | [Java Anagrams](https://www.hackerrank.com/challenges/java-anagrams) | [Solution206.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/2-string/Solution206.java) |
+| 18<br>19 | [Java Anagrams](https://www.hackerrank.com/challenges/java-anagrams) | [Solution205.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/2-string/Solution205.java)<br>[Solution206.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/2-string/Solution206.java) |
 | 20 | [Java String Tokens](https://www.hackerrank.com/challenges/java-string-tokens) | [Solution207.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/2-string/Solution207.java) |
 | 21 | [Pattern Syntax Checker](https://www.hackerrank.com/challenges/pattern-syntax-checker) | [Solution208.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/2-string/Solution208.java) |
 | 22 | [Java Regex](https://www.hackerrank.com/challenges/java-regex) | [Solution209.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/2-string/Solution209.java) |
@@ -37,10 +36,16 @@
 | 28 | [Java BigDecimal](https://www.hackerrank.com/challenges/java-bigdecimal) | [Solution303.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/3-big-number/Solution303.java) |
 |  |  |  |
 | # | * [SubDomain 4: Data Structures](https://www.hackerrank.com/domains/java?badge_type=java&filters%5Bsubdomains%5D%5B%5D=java-data-structure) |  |
+| 29 | [Java 1D Array](https://www.hackerrank.com/challenges/java-1d-array-introduction) | [Solution401.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/4-data-structure/Solution401.java) |
+| 30 | [Java 2D Array](https://www.hackerrank.com/challenges/java-2d-array) | [Solution402.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/4-data-structure/Solution402.java) |
+| 31 | [Java Subarray](https://www.hackerrank.com/challenges/java-negative-subarray) | [Solution403.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/4-data-structure/Solution403.java) |
+| 32 | [Java Arraylist](https://www.hackerrank.com/challenges/java-arraylist) | [Solution404.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/4-data-structure/Solution404.java) |
+| 33 | [Java 1D Array (Part 2)](https://www.hackerrank.com/challenges/java-1d-array) | [Solution405.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/4-data-structure/Solution405.java) |
+| 34 | [Java List](https://www.hackerrank.com/challenges/java-list) | [Solution406.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/4-data-structure/Solution407.java) |
 |  |  |  |
 | # | * [SubDomain 5: Object Oriented Programming](https://www.hackerrank.com/domains/java?badge_type=java&filters%5Bsubdomains%5D%5B%5D=oop) |  |
 |  |  |  |
 | # | * [SubDomain 6: Exception Handling](https://www.hackerrank.com/domains/java?badge_type=java&filters%5Bsubdomains%5D%5B%5D=handling-exceptions) |  |
 |  |  |  |
-| # | * [SubDomain 7: Advanced](https://www.hackerrank.com/domains/java?badge_type=java&filters%5Bsubdomains%5D%5B%5D=java-advanced) |
+| # | * [SubDomain 7: Advanced](https://www.hackerrank.com/domains/java?badge_type=java&filters%5Bsubdomains%5D%5B%5D=java-advanced) |  |
 |  |  |  |
