@@ -42,6 +42,15 @@
 | 32 | [Java Arraylist](https://www.hackerrank.com/challenges/java-arraylist) | [Solution404.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/4-data-structure/Solution404.java) |
 | 33 | [Java 1D Array (Part 2)](https://www.hackerrank.com/challenges/java-1d-array) | [Solution405.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/4-data-structure/Solution405.java) |
 | 34 | [Java List](https://www.hackerrank.com/challenges/java-list) | [Solution406.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/4-data-structure/Solution407.java) |
+| 35 | [Java Map](https://www.hackerrank.com/challenges/phone-book) | [Solution407.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/4-data-structure/Solution407.java) |
+| 36 | [Java Stack](https://www.hackerrank.com/challenges/java-stack) | [Solution408.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/4-data-structure/Solution408.java) |
+| 37 | [Java Hashset](https://www.hackerrank.com/challenges/java-hashset) | [Solution409.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/4-data-structure/Solution409.java) |
+| 38 | [Java Generics](https://www.hackerrank.com/challenges/java-generics) | [Solution410.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/4-data-structure/Solution410.java) |
+| 39 | [Java Comparator](https://www.hackerrank.com/challenges/java-comparator) | [Solution411.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/4-data-structure/Solution411.java) |
+| 40 | [Java Sort](https://www.hackerrank.com/challenges/java-sort) | [Solution412.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/4-data-structure/Solution412.java) |
+| 41 | [Java Dequeue](https://www.hackerrank.com/challenges/java-dequeue) | [Solution413.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/4-data-structure/Solution413.java) |
+| 42 | [Java BitSet](https://www.hackerrank.com/challenges/java-bitset) | [Solution414.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/4-data-structure/Solution414.java) |
+| 43 | [Java Priority Queue](https://www.hackerrank.com/challenges/java-priority-queue) | [Solution415.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/4-data-structure/Solution415.java) |
 |  |  |  |
 | # | * [SubDomain 5: Object Oriented Programming](https://www.hackerrank.com/domains/java?badge_type=java&filters%5Bsubdomains%5D%5B%5D=oop) |  |
 |  |  |  |
