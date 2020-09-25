@@ -53,8 +53,18 @@
 | 43 | [Java Priority Queue](https://www.hackerrank.com/challenges/java-priority-queue) | [Solution415.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/4-data-structure/Solution415.java) |
 |  |  |  |
 | # | * [SubDomain 5: Object Oriented Programming](https://www.hackerrank.com/domains/java?badge_type=java&filters%5Bsubdomains%5D%5B%5D=oop) |  |
+| 44 | [Java Inheritance 1](https://www.hackerrank.com/challenges/java-inheritance-1) | [Solution501.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/5-oop/Solution501.java) |
+| 45 | [Java Inheritance 2](https://www.hackerrank.com/challenges/java-inheritance-2) | [Solution502.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/5-oop/Solution502.java) |
+| 46 | [Java Abstract Class](https://www.hackerrank.com/challenges/java-abstract-class) | [Solution503.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/5-oop/Solution503.java) |
+| 47 | [Java Interface](https://www.hackerrank.com/challenges/java-interface) | [Solution504.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/5-oop/Solution504.java) |
+| 48 | [Java Method Overriding](https://www.hackerrank.com/challenges/java-method-overriding) | [Solution505.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/5-oop/Solution505.java) |
+| 49 | [Java Method Overriding 2<br>(Super Keyword)](https://www.hackerrank.com/challenges/java-method-overriding-2-super-keyword) | [Solution506.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/5-oop/Solution506.java) |
+| 50 | [Java Instanceof keyword](https://www.hackerrank.com/challenges/java-instanceof-keyword) | [Solution507.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/5-oop/Solution507.java) |
+| 51 | [Java Iterator](https://www.hackerrank.com/challenges/java-iterator) | [Solution508.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/5-oop/Solution508.java) |
 |  |  |  |
 | # | * [SubDomain 6: Exception Handling](https://www.hackerrank.com/domains/java?badge_type=java&filters%5Bsubdomains%5D%5B%5D=handling-exceptions) |  |
+| 52 | [Java Exception Handling<br>(Try-catch)](https://www.hackerrank.com/challenges/java-exception-handling-try-catch) | [Solution601.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/6-exception/Solution601.java) |
+| 53 | [Java Exception Handling](https://www.hackerrank.com/challenges/java-exception-handling) | [Solution602.java](https://github.com/binhbdn/learn-java/blob/master/03-hackerrank/6-exception/Solution602.java) |
 |  |  |  |
 | # | * [SubDomain 7: Advanced](https://www.hackerrank.com/domains/java?badge_type=java&filters%5Bsubdomains%5D%5B%5D=java-advanced) |  |
 |  |  |  |
