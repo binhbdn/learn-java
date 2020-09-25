@@ -5,7 +5,6 @@ import java.math.BigDecimal;
 
 class Solution303{
   public static void main(String []args){
-    //Input
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
     String[] s = new String[n+2];
