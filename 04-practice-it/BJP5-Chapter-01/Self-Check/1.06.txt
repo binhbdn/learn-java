@@ -1,0 +1,13 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter1/s6-legalIdentifiers
+BJP5 Self-Check 1.6: legalIdentifiers
+Which of the following can be used in a Java program as identifiers? Check all of the identifiers that are legal.
+v        _average
+v        sum_of_data
+x        first-name
+x        for
+x        "hello"
+v        AnnualSalary
+v        println
+v        B4
+v        ABC
+x        42isThesolution
