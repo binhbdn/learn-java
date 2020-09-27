@@ -1,0 +1,4 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter1/s7-outputSyntax
+BJP5 Self-Check 1.7: outputSyntax
+Which of the following is the correct syntax to output a message?
+System.out.println("Hello, world!");
