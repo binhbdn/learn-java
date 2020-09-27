@@ -1,0 +1,8 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter1/s15-printlnSlashes
+BJP5 Self-Check 1.15: printlnSlashes
+
+Write a println statement that produces the following output:
+/ \ // \\ /// \\\
+
+solution:
+System.out.println("/ \\ // \\\\ /// \\\\\\");
