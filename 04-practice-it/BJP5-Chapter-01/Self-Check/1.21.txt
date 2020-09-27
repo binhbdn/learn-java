@@ -1,0 +1,4 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter1/s21-methodHeaderSyntax
+BJP5 Self-Check 1.21: methodHeaderSyntax
+Which of the following method headers uses the correct syntax?
+public static void example() {
