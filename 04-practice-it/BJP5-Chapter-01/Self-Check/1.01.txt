@@ -1,0 +1,4 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter1/s1-binaryNumbers
+BJP5 Self-Check 1.1: binaryNumbers
+Why do computers use binary numbers?
+It is easier to build electronic devices reliably if they only have to distinguish between two electric states.
