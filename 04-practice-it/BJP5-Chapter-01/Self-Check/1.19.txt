@@ -1,0 +1,17 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter1/s19-SecretMessage-errors
+BJP5 Self-Check 1.19: SecretMessage-errors
+
+The following program contains four errors. Correct the errors and submit a working version of the program.
+public class SecretMessage {
+    public static main(string[] args) {
+        System.out.println("Speak friend");
+        System.out.println("and enter);
+}
+
+solution:
+public class SecretMessage {
+    public static void main(String[] args) {
+        System.out.println("Speak friend");
+        System.out.println("and enter");
+    }
+}
