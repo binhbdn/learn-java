@@ -1,0 +1,17 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter1/s11-downwardSpiral
+BJP5 Self-Check 1.11: downwardSpiral
+
+What is the output produced from the following statements? (Treat tabs as aligning to every multiple of eight spaces.)
+System.out.println("\\\\");
+System.out.println("'");
+System.out.println("\ta\tb\tc");
+System.out.println("\"\"\"");
+System.out.println("C:\nin\the downward spiral");
+
+output
+\\
+'
+        a       b       c
+"""
+C:
+in      he downward spiral
