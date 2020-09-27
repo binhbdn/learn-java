@@ -1,0 +1,20 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter1/s4-cookieRecipe
+BJP5 Self-Check 1.4: cookieRecipe
+In your own words, describe an algorithm for baking cookies. Assume that you have a large number of hungry friends, so you'll want to produce several batches of cookies!
+
+recipe:
+1. Make the cookie batter:
+- Mix the dry ingredients.
+- Cream the butter and sugar.
+- Beat in the eggs.
+- Stir in the dry ingredients.
+
+2. Bake the cookies:
+- Set the oven temperature.
+- Set the timer.
+- Place the cookies into the oven.
+- Allow the cookies to bake.
+
+3. Add frosting and sprinkles:
+- Mix the ingredients for the frosting.
+- Spread frosting and sprinkles onto the cookies.
