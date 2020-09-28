@@ -1,0 +1,24 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter2/s3-expressions1
+BJP5 Self-Check 2.3: expressions1
+Trace the evaluation of the following expressions, and give their resulting values. Make sure to give a value of the appropriate type (such as including a .0 at the end of a double).
+
+1	2 + 3 * 4 - 6	                    8
+2	14 / 7 * 2 + 30 / 5 + 1	            11
+3	(12 + 3) / 4 * 2	                6
+4	(238 % 10 + 3) % 7	                4
+5	(18 - 7) * (43 % 10)	            33
+6	2 + 19 % 5 - (11 * (5 / 2))	        -16
+7	813 % 100 / 3 + 2.4	                6.4
+8	26 % 10 % 4 * 3	                    6
+9	22 + 4 * 2	                        30
+10	23 % 8 % 3	                        1
+11	12 - 2 - 3	                        7
+12	6/2 + 7/3	                        5
+13	6 * 7 % 4	                        2
+14	3 * 4 + 2 * 3	                    18
+15	177 % 100 % 10 / 2	                3
+16	89 % (5 + 5) % 5	                4
+17	392 / 10 % 10 / 2	                4
+18	8 * 2 - 7 / 4	                    15
+19	37 % 20 % 3 * 4	                    8
+20	17 % 10 / 4	                        1
