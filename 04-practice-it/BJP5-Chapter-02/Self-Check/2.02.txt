@@ -1,0 +1,6 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter2/s2-evaluatingExpressions
+BJP5 Self-Check 2.2: evaluatingExpressions
+What is the result of the following expression?
+1 + 2 * 3 + 7 * 2 % 5
+
+11
