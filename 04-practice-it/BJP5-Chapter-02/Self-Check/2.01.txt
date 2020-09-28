@@ -1,0 +1,12 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter2/s1-legalIntLiterals
+BJP5 Self-Check 2.1: legalIntLiterals
+Which of the following are legal int literals?
+
+ x  10.0
+ v  -1
+ x  '7'
+ x  5.
+ x  2.3
+ v  22
+ v  -6875309
+ x  1.5
