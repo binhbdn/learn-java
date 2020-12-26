@@ -1,0 +1,20 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter2/s26-fingerTrap
+BJP5 Self-Check 2.26: fingerTrap
+What is the output of the following loop?
+
+System.out.println("+----+");
+for (int i = 1; i <= 3; i++) {
+    System.out.println("\\    /");
+    System.out.println("/    \\");
+}
+System.out.println("+----+");
+
+output
++----+
+\    /
+/    \
+\    /
+/    \
+\    /
+/    \
++----+
