@@ -1,0 +1,13 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter2/s12-valueOfX
+BJP5 Self-Check 2.12: valueOfX
+What is the value of variable x after the following code executes?
+
+​int x = 3;
+x = x + 2;
+x = x + x;
+
+a       12
+b       7
+c       3
+d   x   10
+e       5
