@@ -1,0 +1,7 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter2/s18-timesOperator
+BJP5 Self-Check 2.18: timesOperator
+Suppose a real number variable x is defined. Write a single Java statement that stores as a variable y the result of the computation below, modifying the expression to use the * operator exactly four times when computing an equivalent value (hint: how could you factor out x here?).
+
+y = 12.3x^4 - 9.1x^3 + 19.3x^2 - 4.6x + 34.2
+
+double y = (((12.3*x - 9.1)*x + 19.3)*x - 4.6)*x + 34.2;
