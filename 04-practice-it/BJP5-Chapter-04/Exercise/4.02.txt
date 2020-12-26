@@ -1,0 +1,16 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter4/e2-repl
+BJP5 Exercise 4.2: repl
+
+Write a method named repl that accepts a String and a number of repetitions as parameters and returns the String concatenated that many times. For example, the call repl("hello", 3) returns "hellohellohello". If the number of repetitions is 0 or less, an empty string is returned.
+This is a method problem. Write a Java method as described. Do not write a complete program or class; just the method(s) above.
+
+public static String repl(String subStr, int n){
+    String str = "";
+    if (! subStr.equals("")) {
+        int i;
+        for (i = 1; i <= n; i++) {
+            str = str + subStr;
+        }
+    }
+    return str;
+}
