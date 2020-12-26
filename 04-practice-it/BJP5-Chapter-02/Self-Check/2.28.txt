@@ -1,0 +1,18 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter2/s28-blastOff
+BJP5 Self-Check 2.28: blastOff
+What is the output of the following loop?
+
+System.out.println("T-minus ");
+for (int i = 5; i >= 1; i--) {
+    System.out.println(i + ", ");
+}
+System.out.println("Blastoff!");
+
+output
+T-minus 
+5, 
+4, 
+3, 
+2, 
+1, 
+Blastoff!
