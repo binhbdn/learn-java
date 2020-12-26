@@ -1,0 +1,44 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter2/s34-BadNews
+BJP5 Self-Check 2.34: BadNews
+Suppose that you are trying to write a program that produces the following output using loops. The program below is an attempt at a solution, but it contains at least four major errors. Identify and fix them all.
+1 3 5 7 9 11 13 15 17 19 21 
+1 3 5 7 9 11 
+
+Type your solution here:
+public class BadNews {
+    public static final int MAX_ODD = 21;
+    public static void writeOdds() {
+        // print each odd number
+        for (int count = 1; count <= (MAX_ODD - 2); count++) {
+            System.out.print(count + " ");
+            count = count + 2;
+        }
+        // print the last odd number
+        System.out.print(count + 2);
+    }
+    public static void main(String[] args) {
+        // write all odds up to 21
+        writeOdds();
+        // now, write all odds up to 11
+        MAX_ODD = 11;
+        writeOdds();
+    }
+}
+
+public class BadNews {
+    public static final int MAX_ODD = 21;
+    public static void writeOdds(int maxOdd) {
+        // print each odd number
+        for (int count = 0; count <= maxOdd/2; count++) {
+            System.out.print((count*2+1) + " ");
+        }
+        // print the last odd number
+        System.out.println();
+    }
+    public static void main(String[] args) {
+        // write all odds up to 21
+        writeOdds(MAX_ODD);
+        // now, write all odds up to 11
+        writeOdds(11);
+    }
+}
