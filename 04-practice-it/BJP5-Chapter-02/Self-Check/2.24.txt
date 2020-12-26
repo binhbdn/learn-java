@@ -1,0 +1,16 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter2/s24-oddStuff
+BJP5 Self-Check 2.24: oddStuff
+What is the output of the following oddStuff method?
+
+​public static void oddStuff() {
+    int number = 4;
+    for (int count = 1; count <= number; count++) {
+        System.out.println(number);
+        number = number / 2;
+    }   
+}
+
+
+output
+4
+2
