@@ -1,0 +1,9 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter2/s6-declareRealNumberSyntax
+BJP5 Self-Check 2.6: declareRealNumberSyntax
+Which of the following choices is the correct syntax for declaring a real number variable named 'grade' and initializing its value to 4.0?
+
+a       grade = double 4.0;
+b       grade = 4;
+c       int grade : 4.0;
+d       4.0 = grade;
+e   x   double grade = 4.0;
