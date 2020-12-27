@@ -1,0 +1,22 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter2/e9-waveNumbers40
+BJP5 Exercise 2.9: waveNumbers40
+
+for (int i=1; i<5; i++) {
+    if (i==2) {
+        for (int j=1; j<11; j++) {
+            System.out.print("_-^-");
+        }
+    } else if (i==3) {
+        for (int j=1; j<3; j++) {
+            for (int k=1; k<10; k++) {
+                System.out.print(k+""+k);
+            }
+            System.out.print("00");
+        }
+    } else {
+        for (int j=1; j<41; j++) {
+            System.out.print("-");
+        }
+    }
+    System.out.println();
+}
