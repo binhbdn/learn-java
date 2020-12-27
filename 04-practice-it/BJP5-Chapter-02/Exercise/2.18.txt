@@ -1,0 +1,21 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter2/e18-pseudocodeWindow
+BJP5 Exercise 2.18: pseudocodeWindow
+
+private static void w1() {
++===+===+
+}
+private static void w2() {
+|   |   |
+}
+private static void w2x3() {
+    w2();
+    w2();
+    w2()
+}
+private static void main() {
+    w1();
+    w2x3()
+    w1();
+    w2x3()
+    w1();
+}
