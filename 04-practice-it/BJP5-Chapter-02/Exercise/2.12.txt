@@ -1,0 +1,11 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter2/e12-nestedNumbers
+BJP5 Exercise 2.12: nestedNumbers
+
+for (int i=0; i<3; i++) {
+    for (int j=0; j<10; j++) {
+        for (int k=0; k<3; k++) {
+            System.out.print(j);
+        }
+    }
+    System.out.println();
+}
