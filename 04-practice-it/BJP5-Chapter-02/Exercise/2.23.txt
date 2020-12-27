@@ -1,0 +1,48 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter2/e22-DollarFigure2
+BJP5 Exercise 2.23: DollarFigure2
+
+public static class DollarFigure2 {
+    public static final int SIZE = 3;
+    
+    public static void myPrint(String str,int n) {
+        for (int i=0; i<n; i++) {
+            System.out.print(str);
+        }
+    }
+    
+    public static void main(String[] args) {
+        for (int i=1; i<=SIZE; i++) {
+            myPrint("*",2*(i-1));
+            myPrint("$",SIZE+1-i);
+            myPrint("*",2*(SIZE+1-i));
+            myPrint("$",SIZE+1-i);
+            myPrint("*",2*(i-1));
+            System.out.println();
+        }
+    }
+}
+
+public static class DollarFigure2 {
+    public static final int SIZE = 3;
+    
+    public static void myPrint(String str,int n) {
+        for (int i=0; i<n; i++) {
+            System.out.print(str);
+        }
+    }
+    
+    public static void main(String[] args) {
+        for (int i=1; i<=SIZE; i++) {
+            for (int j=0; j<2*(i-1); j++) {
+                System.out.print("*");
+            }
+            myPrint("$",SIZE+1-i);
+            myPrint("*",2*(SIZE+1-i));
+            myPrint("$",SIZE+1-i);
+            for (int j=0; j<2*(i-1); j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
