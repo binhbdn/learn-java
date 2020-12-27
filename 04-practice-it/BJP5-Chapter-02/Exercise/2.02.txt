@@ -1,0 +1,6 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter2/e2-loopSquares
+BJP5 Exercise 2.2: loopSquares
+
+for (int i=1; i<11; i++) {
+    System.out.print(i*i + " ");
+}
