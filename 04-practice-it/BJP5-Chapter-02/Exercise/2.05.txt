@@ -1,0 +1,9 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter2/e5-starTriangle
+BJP5 Exercise 2.5: starTriangle
+
+for (int i=1; i<6; i++) {
+    for (int j=1; j<=i; j++) {
+        System.out.print("*");
+    }
+    System.out.println();
+}
