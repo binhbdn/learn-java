@@ -1,0 +1,23 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter2/e11-numbersOutputConstant
+BJP5 Exercise 2.11: numbersOutputConstant
+
+public static class NumbersOutput {
+    public static final int REPETITIONS = 6;
+    public static final int RANGE = 10;
+    public static void main(String[] args) {
+        for (int i=0; i<REPETITIONS; i++) {
+            for (int j=1; j<RANGE; j++) {
+                System.out.print(" ");
+            }
+            System.out.print("|");
+        }
+        System.out.println();
+        for (int i=0; i<REPETITIONS; i++) {
+            for (int j=1; j<RANGE; j++) {
+                System.out.print(j);
+            }
+            System.out.print("0");
+        }
+        System.out.println();
+    }
+}
