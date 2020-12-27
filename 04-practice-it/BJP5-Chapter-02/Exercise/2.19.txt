@@ -1,0 +1,36 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter2/e19-Window
+BJP5 Exercise 2.19: Window
+
+public static class Window {
+    public static final int SIZE = 3;
+
+    public static void w1() {
+        for (int i=1; i<3; i++) {
+            System.out.print("+");
+            for (int j=0; j<SIZE; j++) {
+                System.out.print("=");
+            }
+        }
+        System.out.println("+");
+    }
+
+    public static void w2() {
+        for (int i=0; i<SIZE; i++) {
+            for (int j=1; j<3; j++) {
+                System.out.print("|");
+                for (int k=0; k<SIZE; k++) {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println("|");
+        }
+    }
+    
+    public static void main(String[] args) {
+        for (int i=1; i<3; i++) {
+            w1();
+            w2();
+        }
+        w1();
+    }
+}
