@@ -1,0 +1,25 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter4/e7-xo
+BJP5 Exercise 4.7: xo
+
+Write a static method named xo that accepts an integer size as a parameter and prints a square of size by size characters, where all characters are "o" except that an "x" pattern of "x" characters has been drawn from the corners of the square. In other words, on the first line, the first and last characters are "x"; on the second line, the second and second-from-last characters are "x"; and so on. If 0 or less is passed for the size, no output should be produced.
+
+The following table lists some calls to your method and their expected output:
+...
+This is a method problem. Write a Java method as described. Do not write a complete program or class; just the method(s) above.
+
+public static void xo(int size){
+    if (size <= 0) {
+        return;
+    } else {
+        for (int i = 1; i <= size; i++) {
+            for (int j = 1; j <= size; j++) {
+                if ((i == j)||(i+j == size+1)) {
+                    System.out.print("x");
+                } else {
+                    System.out.print("o");
+                }
+            }
+            System.out.println();
+        }
+    }
+}
