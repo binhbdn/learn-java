@@ -1,0 +1,18 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter4/e15-getGrade
+BJP5 Exercise 4.15: getGrade
+
+public static double getGrade(int score) { 
+	if (score < 0) {
+        throw new IllegalArgumentException("a score can not lower than 0");
+    } else if (score > 100) {
+        throw new IllegalArgumentException("a score can not higher than 100");
+    } else if (score < 60) {
+        return 0.0;
+    } else if ((score == 60)||(score == 61)) {
+        return 0.7;
+    } else if ((score >= 62)||(score <= 94)) {
+        return 0.7 + (score - 62)*0.1;
+    } else {
+        return 4.0;
+    }
+}
