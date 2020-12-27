@@ -1,0 +1,23 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter4/e16-printPalindrome
+BJP5 Exercise 4.16: printPalindrome
+
+public static void printPalindrome(Scanner sc){
+    boolean isPalindrome = true;
+    System.out.print("Type one or more words: ");
+    String si, sj, str = sc.nextLine();
+    int j, len = str.length();
+    for (int i=0; i<len/2; i++) {
+        si = str.substring(i, i+1);
+        j = len - i -1;
+        sj = str.substring(j, j+1);
+        if (! si.equalsIgnoreCase(sj)) {
+            isPalindrome = false;
+            break;
+        }
+    }
+    if (isPalindrome) {
+        System.out.println(str + " is a palindrome!");
+    } else {
+        System.out.println(str + " is not a palindrome.");
+    }
+}
