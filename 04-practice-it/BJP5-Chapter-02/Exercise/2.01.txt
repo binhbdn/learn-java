@@ -1,0 +1,8 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter2/e1-displacement
+BJP5 Exercise 2.1: displacement
+
+double s0 = 12.0;
+double v0 = 3.5;
+double a = 9.8;
+double t = 10;
+System.out.println(s0 + v0*t + a*t*t/2);
