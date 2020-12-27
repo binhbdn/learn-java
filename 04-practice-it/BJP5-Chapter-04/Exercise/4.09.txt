@@ -1,0 +1,30 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter4/e9-evenSumMax
+BJP5 Exercise 4.9: evenSumMax
+
+Write a method named evenSum that prompts the user for many integers and print the total even sum and maximum of the even numbers. You may assume that the user types at least one non-negative even integer.
+
+how many integers? 4
+next integer? 2
+next integer? 9
+next integer? 18
+next integer? 4
+even sum = 24
+even max = 18
+This is a method problem. Write a Java method as described. Do not write a complete program or class; just the method(s) above.
+
+public static void evenSum(){
+    Scanner sc=new Scanner(System.in);
+    System.out.print("how many integers? ");
+    int n=sc.nextInt();
+    int next, evenSum=0, evenMax=0;
+    for (int i=1; i<=n; i++) {
+        System.out.print("next integer? ");
+        next=sc.nextInt();
+        if (next % 2 == 0) {
+            evenSum += next;
+            if (next > evenMax) evenMax = next;
+        }
+    }
+    System.out.println("even sum = " + evenSum);
+    System.out.println("even max = " + evenMax);
+}
