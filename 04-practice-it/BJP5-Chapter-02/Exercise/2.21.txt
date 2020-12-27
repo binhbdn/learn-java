@@ -1,0 +1,24 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter2/e21-StarFigure2
+BJP5 Exercise 2.21: StarFigure2
+
+public static class StarFigure2 {
+    public static final int SIZE = 3;
+    
+    public static void main(String[] args) {
+        for (int i=1; i<=SIZE; i++) {
+            for (int j=0; j<(SIZE-i)*4; j++) {
+                System.out.print("/");
+                
+            }
+            for (int j=0; j<(i-1)*8; j++) {
+                System.out.print("*");
+                
+            }
+            for (int j=0; j<(SIZE-i)*4; j++) {
+                System.out.print("\\");
+                
+            }
+            System.out.println();
+        }
+    }
+}
