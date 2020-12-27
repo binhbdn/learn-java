@@ -1,0 +1,20 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter2/e16-SlashFigure
+BJP5 Exercise 2.16: SlashFigure
+
+public static class SlashFigure {
+    public static final int SIZE = 6;
+    public static void main(String[] args) {
+        for (int i=1; i<SIZE+1; i++) {
+            for (int j=0; j<(i-1)*2; j++) {
+                System.out.print("\\");
+            }
+            for (int j=0; j<4*SIZE+2-4*i; j++) {
+                System.out.print("!");
+            }
+            for (int j=0; j<(i-1)*2; j++) {
+                System.out.print("/");
+            }
+            System.out.println();
+        }
+    }
+}
