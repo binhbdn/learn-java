@@ -1,0 +1,33 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter4/e8-smallestLargest
+BJP5 Exercise 4.8: smallestLargest
+
+Write a method named smallestLargest that asks the user to enter numbers, then prints the smallest and largest of all the numbers typed in by the user. You may assume the user enters a valid number greater than 0 for the number of numbers to read. Here is an example dialogue:
+
+How many numbers do you want to enter? 4
+Number 1: 5
+Number 2: 11
+Number 3: -2
+Number 4: 3
+Smallest = -2
+Largest = 11
+This is a method problem. Write a Java method as described. Do not write a complete program or class; just the method(s) above.
+
+public static void smallestLargest(){
+    Scanner sc=new Scanner(System.in);
+    System.out.print("How many numbers do you want to enter? ");
+    int n=sc.nextInt();
+    int next, smallest=0, largest=0;
+    for (int i=1; i<=n; i++) {
+        System.out.print("Number " + i + ": ");
+        next=sc.nextInt();
+        if (i==1) {
+            smallest=next;
+            largest=next;
+        } else {
+            if (next < smallest) smallest=next;
+            if (next > largest) largest=next;
+        }
+    }
+    System.out.println("Smallest = " + smallest);
+    System.out.println("Largest = " + largest);
+}
