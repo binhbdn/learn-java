@@ -1,0 +1,9 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter2/e4-starSquare
+BJP5 Exercise 2.4: starSquare
+
+for (int i=1; i<5; i++) {
+    for (int j=1; j<6; j++) {
+        System.out.print("*");
+    }
+    System.out.println();
+}
