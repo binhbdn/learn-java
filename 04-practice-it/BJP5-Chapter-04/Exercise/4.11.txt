@@ -1,0 +1,24 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter4/e11-longestName
+BJP5 Exercise 4.11: longestName
+
+public static void longestName(Scanner sc, int n){
+    boolean tie = false;
+    String longest_Name = "", next;
+    int len, longest = 0;
+    for (int i=1; i<=n; i++) {
+        System.out.print("name #" + i + "? ");
+        next=sc.next();
+        len = next.length();
+        if (len > longest) {
+            longest_Name = next;
+            longest = len;
+            tie = false;
+        } else if (len == longest) {
+            tie = true;
+        }
+    }
+    String cap = longest_Name.substring(0, 1).toUpperCase() + longest_Name.substring(1).toLowerCase();
+
+    System.out.println(cap + "'s name is longest");
+    if (tie) System.out.println("(There was a tie!)");
+}
