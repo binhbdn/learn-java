@@ -1,0 +1,14 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter3/s21-fourScore
+BJP5 Self-Check 3.21: fourScore
+
+// index        012345678901234567890123456789
+String quote = "Four score and seven years ago";
+String expr1 = quote.substring(a, b).toUpperCase();  // "SCORE"
+String expr2 = quote.toLowerCase().substring(c, d) + quote.substring(e, f);  // "fouryears"
+
+a	5
+b	10
+c	0
+d	4
+e	21
+f	26
