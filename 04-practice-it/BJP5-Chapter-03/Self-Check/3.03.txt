@@ -1,0 +1,19 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter3/s3-Oops3-errors
+BJP5 Self-Check 3.3: Oops3-errors
+
+public class Oops3 {
+    static double bubble = 867.5309;
+    public static void main(String[] args) {
+        double x = 10.01;
+        printer(x, 8.0);
+        printer(x, bubble);
+    }
+    public static void printer(double x, double y) {
+        int z = 5;
+        System.out.println("x = " + x + " and y = " + y);
+        if (y == bubble) {
+            System.out.println("The value from main is: " + bubble);
+            System.out.println("z = " + z);
+        }
+    }
+}
