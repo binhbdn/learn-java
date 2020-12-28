@@ -1,0 +1,6 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter3/s4-Odds
+BJP5 Self-Check 3.4: Odds
+
+1 3 5 
+1 3 5 7 9 11 13 15 
+1 3 5 7 9 11 13 15 17 19 21 23 25
