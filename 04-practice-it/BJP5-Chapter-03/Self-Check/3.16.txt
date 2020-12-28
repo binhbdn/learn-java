@@ -1,0 +1,6 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter3/s16-min
+BJP5 Self-Check 3.16: min
+
+public static int min(int a, int b, int c) {
+    return Math.min(Math.min(a, b), c);
+}
