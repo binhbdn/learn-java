@@ -1,0 +1,7 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter3/s23-promptMultiplyBy2
+BJP5 Self-Check 3.23: promptMultiplyBy2
+
+Scanner sc = new Scanner(System.in);
+System.out.print("Type an integer: ");
+int i = sc.nextInt();
+System.out.println(i + " times " + 2 + " = " + i*2);
