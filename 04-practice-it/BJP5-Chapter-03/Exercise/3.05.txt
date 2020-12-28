@@ -1,0 +1,12 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter3/e5-printGrid
+BJP5 Exercise 3.5: printGrid
+
+public static void printGrid(int rows, int cols) {
+    for (int i=1; i<=rows; i++) {
+        for (int j=0; j<cols; j++) {
+            System.out.print(i+j*rows);
+            if (j<cols-1) System.out.print(", ");
+        }
+        System.out.println();
+    }
+}
