@@ -1,0 +1,18 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter4/e14-pow2
+BJP5 Exercise 4.14: pow2
+
+public static double pow2(double base, int exp){
+    if (((base != 0.0)&&(exp == 0))||((base == 1.0)&&(exp != 0))) {
+        return 1.0;
+    } else if ((base == 0.0)&&(exp != 0)) {
+        return 0.0;
+    } else {
+        double power = base;
+        int absExp = Math.abs(exp);
+        for (int i=2; i <= absExp; i++) {
+            power *= base;
+        }
+        if (exp<0) power = 1.0/power;
+        return power;
+    }
+}
