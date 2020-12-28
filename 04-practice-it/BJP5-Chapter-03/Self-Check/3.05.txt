@@ -1,0 +1,7 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter3/s5-Weird
+BJP5 Self-Check 3.5: Weird
+
+1 2 3 4 5 
+1 2 3 4 5 6 7 
+1 2 3 4 
+number = 8
