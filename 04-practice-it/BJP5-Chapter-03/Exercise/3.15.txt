@@ -1,0 +1,6 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter3/e15-sphereVolume
+BJP5 Exercise 3.15: sphereVolume
+
+public static double sphereVolume(double r) {
+    return 4.0/3*Math.PI*Math.pow(r,3);
+}
