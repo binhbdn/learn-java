@@ -1,0 +1,9 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter3/e2-printPowersOf2
+BJP5 Exercise 3.2: printPowersOf2
+
+public static void printPowersOf2(int max) {
+    for (int i=0; i<=max; i++) {
+        System.out.print((int) Math.pow(2,i) + " ");
+    }
+    System.out.println();
+}
