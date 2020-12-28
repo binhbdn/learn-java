@@ -1,0 +1,6 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter3/e9-lastDigit
+BJP5 Exercise 3.9: lastDigit
+
+public static int lastDigit(int a) {
+    return Math.abs(a) % 10;
+}
