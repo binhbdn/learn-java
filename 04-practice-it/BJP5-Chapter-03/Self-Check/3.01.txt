@@ -1,0 +1,4 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter3/s1-methodHeaderSyntax
+BJP5 Self-Check 3.1: methodHeaderSyntax
+
+public static void example(int x, int y) {
