@@ -1,0 +1,9 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter3/e3-printPowersOfN
+BJP5 Exercise 3.3: printPowersOfN
+
+public static void printPowersOfN(int base, int max) {
+    for (int i=0; i<=max; i++) {
+        System.out.print((int) Math.pow(base,i) + " ");
+    }
+    System.out.println();
+}
