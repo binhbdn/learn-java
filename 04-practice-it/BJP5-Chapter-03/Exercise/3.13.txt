@@ -1,0 +1,12 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter3/e13-pay
+BJP5 Exercise 3.13: pay
+
+public static double pay(double salary, int h) {
+    double sum;
+    if (h>8) {
+        sum = salary*h + salary*(h-8)/2;
+    } else {
+        sum = salary*h;
+    }
+    return sum;
+}
