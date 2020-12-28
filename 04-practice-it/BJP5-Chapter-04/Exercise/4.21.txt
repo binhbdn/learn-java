@@ -1,0 +1,18 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter4/e21-perfectNumbers
+BJP5 Exercise 4.21: perfectNumbers
+
+public static void perfectNumbers(int max){
+    System.out.print("Perfect numbers up to " + max + ":");
+    int sum = 0;
+    for (int i=2; i<=max; i++) {
+        for (int j=1; j<=i/2; j++) {
+            if (i%j==0) {
+                sum += j;
+                if (sum>i) break;
+            }
+        }
+        if (sum==i) System.out.print(" " + i);
+        sum = 0;
+    }
+    System.out.println();
+}
