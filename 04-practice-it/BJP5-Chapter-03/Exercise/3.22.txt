@@ -1,0 +1,23 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter3/e22-TheNameGame
+BJP5 Exercise 3.22: TheNameGame
+
+public class TheNameGame{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("What is your name? ");
+        String fullName = sc.nextLine();
+        int sp = fullName.indexOf(" ");
+        String firstName = fullName.substring(0,sp);
+        String lastName = fullName.substring(sp+1);
+        song(firstName);
+        System.out.println();
+        song(lastName);
+    }
+    public static void song(String name) {
+        String sub = name.substring(1);
+        System.out.println(name + " " + name + ", bo-B" + sub);
+        System.out.println("Banana-fana fo-F" + sub);
+        System.out.println("Fee-fi-mo-M" + sub);
+        System.out.println(name.toUpperCase() + "!");
+    }
+}
