@@ -1,0 +1,10 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter3/e8-quadratic
+BJP5 Exercise 3.8: quadratic
+
+public static void quadratic(double a, double b, double c) {
+    double delta = Math.sqrt(Math.pow(b, 2)-4*a*c);
+    double first = (-b+delta)/2/a;
+    double second = (-b-delta)/2/a;
+    System.out.println("First root = " + first);
+    System.out.println("Second root = " + second);    
+}
