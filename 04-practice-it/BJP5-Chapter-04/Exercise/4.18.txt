@@ -1,0 +1,16 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter4/e18-wordCount
+BJP5 Exercise 4.18: wordCount
+
+public static int wordCount(String str){
+    str = str.trim();
+    if (str.length()==0) return 0;
+    int count = 1;
+    int pos = str.indexOf(" ");
+    while (pos>0) {
+        count++;
+        str = str.substring(pos);
+        str = str.trim();
+        pos = str.indexOf(" ");
+    }
+    return count;
+}
