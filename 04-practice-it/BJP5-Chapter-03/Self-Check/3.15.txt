@@ -1,0 +1,11 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter3/s15-mathExpressions2
+BJP5 Self-Check 3.15: mathExpressions2
+
+a) grade =	2.7
+b) grade =	3.0
+c) min =	2.0
+d) x =	    16.0
+e) x =	    8.0
+f) count =	25
+g) count =	5
+h) a =	    3
