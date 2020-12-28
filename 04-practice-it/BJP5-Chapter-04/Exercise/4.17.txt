@@ -1,0 +1,12 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter4/e17-stutter
+BJP5 Exercise 4.17: stutter
+
+public static String stutter(String str){
+    int len = str.length();
+    String sub, stutterStr="";
+    for (int i=0; i<len; i++) {
+        sub=str.substring(i,i+1);
+        stutterStr += sub+sub;
+    }
+    return stutterStr;
+}
