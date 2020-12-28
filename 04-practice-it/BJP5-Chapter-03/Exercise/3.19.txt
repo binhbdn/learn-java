@@ -1,0 +1,9 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter3/e19-printReverse
+BJP5 Exercise 3.19: printReverse
+
+public static void printReverse(String str) {
+    int len = str.length();
+    for (int i=1; i<=len; i++) {
+        System.out.print(str.charAt(len-i));
+    }
+}
