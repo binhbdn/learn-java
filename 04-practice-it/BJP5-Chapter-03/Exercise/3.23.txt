@@ -1,0 +1,11 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter3/e23-printIndexed
+BJP5 Exercise 3.23: printIndexed
+
+public static void printIndexed(String str){
+    int len = str.length();
+    String out = "";
+    for (int i=0; i<len; i++){
+        out += str.substring(i,i+1) + (len-i-1);
+    }
+    System.out.println(out);
+}
