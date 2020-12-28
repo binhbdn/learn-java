@@ -1,0 +1,6 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter3/e7-largestAbsVal
+BJP5 Exercise 3.7: largestAbsVal
+
+public static int largestAbsVal(int a, int b, int c) {
+    return Math.max(Math.max(Math.abs(a), Math.abs(b)), Math.abs(c));
+}
