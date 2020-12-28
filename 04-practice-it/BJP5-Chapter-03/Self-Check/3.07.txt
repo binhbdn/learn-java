@@ -1,0 +1,8 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter3/s7-parameterMysteryWho
+BJP5 Self-Check 3.7: parameterMysteryWho
+
+whom and who like it
+it and him like whom
+whom and him like him
+stu and boo like who
+her and him like who
