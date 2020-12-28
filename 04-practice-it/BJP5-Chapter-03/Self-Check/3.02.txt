@@ -1,0 +1,5 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter3/s2-MysteryNums
+BJP5 Self-Check 3.2: MysteryNums
+
+15 42
+10 25
