@@ -1,0 +1,11 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter3/s25-RobertPaulson
+BJP5 Self-Check 3.25: RobertPaulson
+
+Scanner sc = new Scanner(System.in);
+System.out.print("What is your phrase? ");
+String str = sc.nextLine();
+System.out.print("How many times should I repeat it? ");
+int n = sc.nextInt();
+for (int i = 0; i < n; i++) {
+    System.out.println(str);
+}
