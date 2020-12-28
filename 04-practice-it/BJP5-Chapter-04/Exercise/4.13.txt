@@ -1,0 +1,6 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter4/e13-average
+BJP5 Exercise 4.12: printTriangleType
+
+public static double average(int a, int b){
+    return (a+b)/2.0;
+}
