@@ -1,0 +1,11 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter3/e21-processName
+BJP5 Exercise 3.21: processName
+
+public static void processName(Scanner sc) {
+    System.out.print("Please enter your full name: ");
+    String fullName = sc.nextLine();
+    int sp = fullName.indexOf(" ");
+    String firstName = fullName.substring(0,sp);
+    String lastName = fullName.substring(sp+1);
+    System.out.println("Your name in reverse order is " + lastName + ", " + firstName);
+}
