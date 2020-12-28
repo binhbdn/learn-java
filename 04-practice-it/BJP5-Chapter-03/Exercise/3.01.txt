@@ -1,0 +1,9 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter3/e1-printNumbers
+BJP5 Exercise 3.1: printNumbers
+
+public static void printNumbers(int max) {
+    for (int i=1; i<=max; i++) {
+        System.out.print("[" + i + "] ");
+    }
+    System.out.println();
+}
