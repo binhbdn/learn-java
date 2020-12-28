@@ -1,0 +1,13 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter12/e2-writeNums
+BJP5 Exercise 12.2: writeNums
+
+public static void writeNums(int n) {
+    if (n<1) {
+        throw new IllegalArgumentException();
+    } else if (n==1) {
+        System.out.print(n);
+    } else {
+        writeNums(n-1);
+        System.out.print(", " + n);
+    }
+}
