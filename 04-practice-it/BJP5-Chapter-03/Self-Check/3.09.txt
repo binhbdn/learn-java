@@ -1,0 +1,7 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter3/s9-parameterMysterySoda
+BJP5 Self-Check 3.9: parameterMysterySoda
+
+say coke not pepsi or pop
+say soda not soda or pepsi
+say pepsi not koolaid or pop
+say say not pepsi or pepsi
