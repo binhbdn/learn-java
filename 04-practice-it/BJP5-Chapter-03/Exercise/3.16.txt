@@ -1,0 +1,8 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter3/e16-triangleArea
+BJP5 Exercise 3.16: triangleArea
+
+public static double triangleArea(double a, double b, double c) {
+    double s=(a+b+c)/2;
+    double area=Math.sqrt(s*(s-a)*(s-b)*(s-c));
+    return area;
+}
