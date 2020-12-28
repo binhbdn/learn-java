@@ -1,0 +1,8 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter3/s6-parameterMysteryNumbers
+BJP5 Self-Check 3.6: parameterMysteryNumbers
+
+three times two = 6
+1 times three = 28
+1 times 1 = 42
+three times 1 = 2
+1 times eight = 20
