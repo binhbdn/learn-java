@@ -1,0 +1,6 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter3/e6-largerAbsVal
+BJP5 Exercise 3.6: largerAbsVal
+
+public static int largerAbsVal(int a, int b) {
+    return Math.max(Math.abs(a), Math.abs(b));
+}
