@@ -1,0 +1,17 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter3/s24-SumNumbers
+BJP5 Self-Check 3.24: SumNumbers
+
+public class SumNumbers {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("low? ");
+        int low = sc.nextInt();
+        System.out.print("high? ");
+        int high = sc.nextInt();
+        int sum = 0;
+        for (int i = low; i <= high; i++) {
+            sum += i;
+        }
+        System.out.println("sum = " + sum);
+    }
+}
