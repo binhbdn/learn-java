@@ -1,0 +1,17 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter3/s19-stringExpressions
+BJP5 Self-Check 3.19: stringExpressions
+
+String str1 = "Frodo Baggins";
+String str2 = "Gandalf the GRAY";
+
+str1.length()	                    13
+str1.charAt(7)	                    'a'
+str2.charAt(0)	                    'G'
+str1.indexOf("o")	                2
+str2.toUpperCase()	                "GANDALF THE GRAY"
+str1.toLowerCase().indexOf("B")     -1
+str1.substring(4)	                "o Baggins"
+str2.substring(3, 14)	            "dalf the GR"
+str2.replace("a", "oo")	            "Goondoolf the GRAY"
+str2.replace("gray", "white")	    "Gandalf the GRAY"
+"str1".replace("r", "range")	    "strange1"
