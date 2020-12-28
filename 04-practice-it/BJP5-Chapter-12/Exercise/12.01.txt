@@ -1,0 +1,12 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter12/e1-starString
+BJP5 Exercise 12.1: starString
+
+public static String starString(int n) {
+    if (n<0) {
+        throw new IllegalArgumentException();
+    } else if (n==0) {
+        return "*";
+    } else {
+        return starString(n-1)+starString(n-1);
+    }
+}
