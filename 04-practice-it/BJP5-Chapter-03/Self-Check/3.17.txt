@@ -1,0 +1,7 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter3/s17-countQuarters
+BJP5 Self-Check 3.17: countQuarters
+
+public static int countQuarters(int cents) {
+    cents = cents % 100;
+    return cents / 25;
+}
