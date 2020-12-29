@@ -1,0 +1,34 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter12/e15-vowelsToEnd
+BJP5 Exercise 12.15: vowelsToEnd
+
+public static String vowelsToEnd(String s) {
+    int len=s.length();
+    if (len < 2) {
+        return s;
+    } else if (len==2) {
+        String first = s.substring(0,1);
+        if (isVowels(first)) {
+            String second = s.substring(1,2);
+            return second + first;
+        } else {
+            return s;
+        }
+    } else { // len>2
+        String first = s.substring(0,1);
+        String right = s.substring(1);
+        if (isVowels(first)) {
+            return vowelsToEnd(right)+first;
+        } else {
+            return first + vowelsToEnd(right);
+        }
+    }
+}
+public static boolean isVowels(String s) {
+    int len=s.length();
+    if (len==0 || len>1) {
+        return false;
+    } else { //len==1
+        if (s.equals("a")||s.equals("e")||s.equals("i")||s.equals("o")||s.equals("u")) return true;
+        return false;
+    }
+}
