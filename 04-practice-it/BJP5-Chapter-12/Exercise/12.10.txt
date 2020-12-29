@@ -1,0 +1,24 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter12/e10-digitMatch
+BJP5 Exercise 12.10: digitMatch
+
+public static int digitMatch(int a, int b) {
+    if (a<0 || b<0) {
+        throw new IllegalArgumentException();
+    } else if (a>b) {
+        return digitMatch(b,a);
+    } else { //a<b
+        if (a<10) {
+            if (a==b%10) {
+                return 1;
+            } else {
+                return 0;
+            }
+        } else {
+            if (a%10==b%10) {
+                return 1+digitMatch(a/10,b/10);
+            } else {
+                return digitMatch(a/10,b/10);
+            }
+        }
+    }
+}
