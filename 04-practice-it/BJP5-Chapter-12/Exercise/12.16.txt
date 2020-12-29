@@ -1,0 +1,20 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter12/e16-evenDigits
+BJP5 Exercise 12.16: evenDigits
+
+public static int evenDigits(int n) {
+    if (n < 0) {
+        return -evenDigits(-n);
+    } else if (n<10) {
+        if (n%2==0) {
+            return n;
+        } else {
+            return 0;
+        }
+    } else { //n>=10
+        if (n%2==0) {
+            return evenDigits(n/10)*10+(n%10);
+        } else {
+            return evenDigits(n/10);
+        }
+    }
+}
