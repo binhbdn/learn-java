@@ -1,0 +1,12 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter12/e9-sumTo
+BJP5 Exercise 12.9: sumTo
+
+public static double sumTo(int n) {
+    if (n<0) {
+        throw new IllegalArgumentException();
+    } else if (n==0) {
+        return 0.0;
+    } else {
+        return sumTo(n-1)+1.0/n;
+    }
+}
