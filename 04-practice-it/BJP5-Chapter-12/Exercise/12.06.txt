@@ -1,0 +1,15 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter12/e6-writeSquares
+BJP5 Exercise 12.6: writeSquares
+
+public static void writeSquares(int n) {
+    if (n<1) {
+        throw new IllegalArgumentException();
+    } else if (n==1) {
+        System.out.print("1");
+    } else {
+        boolean isEven = (n%2==0);
+        if (! isEven) System.out.print(n*n + ", ");
+        writeSquares(n-1);
+        if (isEven) System.out.print(", " + n*n);
+    }
+}
