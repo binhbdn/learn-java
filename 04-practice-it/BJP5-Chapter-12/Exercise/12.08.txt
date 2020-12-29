@@ -1,0 +1,12 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter12/e8-multiplyEvens
+BJP5 Exercise 12.8: multiplyEvens
+
+public static int multiplyEvens(int n) {
+    if (n<1) {
+        throw new IllegalArgumentException();
+    } else if (n==1) {
+        return 2;
+    } else {
+        return multiplyEvens(n-1)*n*2;
+    }
+}
