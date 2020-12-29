@@ -1,0 +1,18 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter12/e14-dedup
+BJP5 Exercise 12.14: dedup
+
+public static String dedup(String s) {
+    int len=s.length();
+    if (len < 2) {
+        return s;
+    } else {
+        String first = s.substring(0,1);
+        String second = s.substring(1,2);
+        String right = s.substring(1);
+        if (first.equals(second)) {
+            return dedup(right);
+        } else {
+            return first + dedup(right);
+        }
+    }
+}
