@@ -1,0 +1,21 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter12/e24-printSquares
+BJP5 Exercise 12.24: printSquares
+
+public static void printSquares(int n) {
+    printSquares(n, 1, new TreeSet<Integer>());
+}
+
+private static void printSquares(int n, int index, Set<Integer> squares) {
+    if (n == 0) {
+        printHelper(squares);
+    } else if (n > 0) {
+        int root = (int) Math.sqrt(n);
+        for (int i = index; i <= root; i++) {
+            if (n - i * i >= 0) {
+                squares.add(i);
+                printSquares(n - i * i, i + 1, squares);
+                squares.remove(i);
+            } 
+        }
+    }
+}
