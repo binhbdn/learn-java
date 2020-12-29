@@ -1,0 +1,20 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter12/e21-countBinary
+BJP5 Exercise 12.21: countBinary
+
+public static void countBinary(int n) {
+    countBinary(n, "");
+}
+
+private static void countBinary(int n, String str) {
+    if (n==0) {
+        System.out.println();
+    } else { //n>0
+        int len = str.length();
+        if (n == len) {
+            System.out.println(str);
+        } else if (n > len) {
+            countBinary(n, str + "0");
+            countBinary(n, str + "1");
+        }
+    }
+}
