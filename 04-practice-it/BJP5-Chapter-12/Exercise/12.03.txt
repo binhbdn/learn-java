@@ -1,0 +1,16 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter12/e3-writeSequence
+BJP5 Exercise 12.3: writeSequence
+
+public static void writeSequence(int n) {
+    if (n<1) {
+        throw new IllegalArgumentException();
+    } else if (n==1) {
+        System.out.print("1");
+    } else if (n==2) {
+        System.out.print("1 1");
+    } else {
+        System.out.print((n+1)/2 + " ");
+        writeSequence(n-2);
+        System.out.print(" " + (n+1)/2);
+    }
+}
