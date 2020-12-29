@@ -1,0 +1,27 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter12/e12-isReverse
+BJP5 Exercise 12.12: isReverse
+
+public static boolean isReverse(String s1, String s2) {
+    int len=s1.length();
+    if (len != s2.length()) {
+        return false;
+    } else if (len==0) {
+        return true; //s1=s2=""
+    } else if (len==1) {
+        if (s1.equals(s2)) {
+            return true;
+        } else {
+            return false;
+        }
+    } else { //len >= 2
+        s1 = s1.toLowerCase();
+        s2 = s2.toLowerCase();
+        String s1_sub_left = s1.substring(0,len-1);
+        String s2_sub_right = s2.substring(1);
+        if (s1.endsWith(s2.substring(0,1))) {
+            return isReverse(s1_sub_left,s2_sub_right);
+        } else {
+            return false;
+        }
+    }
+}
