@@ -1,0 +1,30 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter12/e13-indexOf
+BJP5 Exercise 12.13: indexOf
+
+public static int indexOf(String s, String sub) {
+    int len=s.length();
+    int len_sub=sub.length();
+
+    if (len_sub > len) {
+        return -1;
+    } else if (len_sub == len) {
+        if (sub.equals(s)) {
+            return 0;
+        } else {
+            return -1;
+        }
+    } else { //len_sub < len
+        String s_left = s.substring(0,len_sub);
+        String s_right = s.substring(1);
+        if (sub.equals(s_left)) { // chuỗi sub khớp đầu chuỗi s
+            return 0;
+        } else { // chưa khớp, tiếp tục kiểm tra
+            int count = 1 + indexOf(s_right,sub); // đệ quy
+            if (count != 0) {
+                return count;
+            } else {
+                return -1;
+            }
+        }
+    }
+}
