@@ -1,0 +1,18 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter12/s6-mysteryXY
+BJP5 Self-Check 12.6: mysteryXY
+
+public void mysteryXY(int x, int y) {
+    if (y == 1) {
+        System.out.print(x);
+    } else {
+        System.out.print(x * y + ", ");
+        mysteryXY(x, y - 1);
+        System.out.print(", " + x * y);
+    }
+}
+
+mysteryXY(4, 1);	4
+mysteryXY(4, 2);	8, 4, 8
+mysteryXY(8, 2);	16, 8, 16
+mysteryXY(4, 3);	12, 8, 4, 8, 12
+mysteryXY(3, 4);	12, 9, 6, 3, 6, 9, 12
