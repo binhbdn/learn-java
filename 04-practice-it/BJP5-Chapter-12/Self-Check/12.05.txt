@@ -1,0 +1,22 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter12/s5-mystery3
+BJP5 Self-Check 12.5: mystery3
+
+public void mystery3(int n) {
+    if (n <= 0) {
+        System.out.print("*");
+    } else if (n % 2 == 0) {
+        System.out.print("(");
+        mystery3(n - 1);
+        System.out.print(")");
+    } else {
+        System.out.print("[");
+        mystery3(n - 1);
+        System.out.print("]");
+    }
+}
+
+mystery3(0);	    *
+mystery3(1);	    [*]
+mystery3(2);	    ([*])
+mystery3(4);	    ([([*])])
+mystery3(5);	    [([([*])])]
