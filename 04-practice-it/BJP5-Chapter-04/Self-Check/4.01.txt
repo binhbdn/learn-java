@@ -1,0 +1,15 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter4/s1-logicalTests
+BJP5 Self-Check 4.1: logicalTests
+
+a. z is odd.	                                                                z%2==1
+b. z is not greater than y's square root.	                                    z<=Math.sqrt(y)
+c. y is positive.	                                                            y>0
+d. Either x or y is even, and the other is odd. (Hint: Don't use && or ||.)	    x*y%2==1
+e. y is a multiple of z.	                                                    y%z==0
+f. z is not zero.	                                                            z!=0
+g. y is greater in magnitude than z.	                                        Math.abs(y)>Math.abs(z)
+h. x and z are of opposite signs.	                                            x*z<0
+i. y is a nonnegative one-digit number.	                                        y>=0 && y<10
+j. z is nonnegative.	                                                        z>=0
+k. x is even	                                                                x%2==0
+l. x is closer in value to y than z is.	                                        Math.abs(x-y)<Math.abs(z-y)
