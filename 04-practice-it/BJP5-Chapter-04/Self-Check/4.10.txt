@@ -1,0 +1,6 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter4/s10-javaIsAwesome
+BJP5 Self-Check 4.10: javaIsAwesome
+
+if (x < 30) x++;
+a = 2;
+System.out.println("Java is awesome! " + x);
