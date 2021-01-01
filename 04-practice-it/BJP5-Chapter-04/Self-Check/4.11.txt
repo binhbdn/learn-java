@@ -1,0 +1,15 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter4/s11-contribution
+BJP5 Self-Check 4.11: contribution
+
+System.out.print("Is your money multiplied 1 or 2 times? ");
+int times = console.nextInt();
+
+System.out.print("And how much are you contributing? ");
+int donation = console.nextInt();
+if (times == 1) {
+    count1++;
+} else {
+    count2++;
+}
+sum = sum + times * donation;
+total = total + donation;
