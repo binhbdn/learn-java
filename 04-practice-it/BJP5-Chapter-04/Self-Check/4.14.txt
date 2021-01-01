@@ -1,0 +1,53 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter4/s14-playingCard
+BJP5 Self-Check 4.14: playingCard
+
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter a card: ");
+String rank = sc.next();
+String suit = sc.next();
+
+if (rank.equals("1")) {
+    rank = "One";
+} else if (rank.equals("2")) {
+    rank = "Two";
+} else if (rank.equals("3")) {
+    rank = "Three";
+} else if (rank.equals("4")) {
+    rank = "Four";
+} else if (rank.equals("5")) {
+    rank = "Five";
+} else if (rank.equals("6")) {
+    rank = "Six";
+} else if (rank.equals("7")) {
+    rank = "Seven";
+} else if (rank.equals("8")) {
+    rank = "Eight";
+} else if (rank.equals("9")) {
+    rank = "Nine";
+} else if (rank.equals("10")) {
+    rank = "Ten";
+} else if (rank.equals("11")) {
+    rank = "Eleven";
+} else if (rank.equals("12")) {
+    rank = "Twelve";
+} else if (rank.equals("J")) {
+    rank = "Jack";
+} else if (rank.equals("Q")) {
+    rank = "Queen";
+} else if (rank.equals("K")) {
+    rank = "King";
+} else {
+    rank = "Ace";
+}
+
+if (suit.equals("C")) {
+    suit = "Clubs";
+} else if (suit.equals("D")) {
+    suit = "Diamonds";
+} else  if (suit.equals("H")) {
+    suit = "Hearts";
+} else {
+    suit = "Spades";
+}
+
+System.out.println(rank + " of " + suit);
