@@ -1,0 +1,20 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter4/s4-Oops4-errors
+BJP5 Self-Check 4.4: Oops4-errors
+
+public class Oops4 {
+    public static void main(String[] args) {
+        int a = 7, b = 42;
+        a = minimum(a, b);
+        System.out.println("a is the smallest!");
+    }
+
+    public static int minimum(int a, int b) {
+        int smaller;
+        if (a < b) {
+            smaller = a;
+        } else {
+            smaller = b;
+        }
+        return smaller;
+    }
+}
