@@ -1,0 +1,16 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter4/s13-colors
+BJP5 Self-Check 4.13: colors
+
+Scanner sc = new Scanner(System.in);
+System.out.print("What color do you want? ");
+String inputColor = sc.next();
+String color = inputColor.toLowerCase();
+if (color.equals("r")) {
+    System.out.println("You have chosen Red.");
+} else if (color.equals("g")) {
+    System.out.println("You have chosen Green.");
+} else if (color.equals("b")) {
+    System.out.println("You have chosen Blue.");
+} else {
+    System.out.println("Unknown color: " + inputColor);
+}
