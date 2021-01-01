@@ -1,0 +1,16 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter4/s2-logicExpressions1
+BJP5 Self-Check 4.2: logicExpressions1
+
+int x = 4;
+int y = -3;
+int z = 4;
+
+x == 4	                        true
+x == y	                        false
+x == z	                        true
+y == z	                        false
+x + y > 0	                    true
+x - z != 0	                    false
+y * y <= z	                    false
+y / y == 1	                    true
+x * (y + 2) > y - (y + z) * 2	true
