@@ -1,0 +1,9 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter4/s9-favoriteColor
+BJP5 Self-Check 4.9: favoriteColor
+
+Scanner console = new Scanner(System.in);
+System.out.print("What is your favorite color? ");
+String name = console.next();
+if (name.equals("blue")) {
+    System.out.println("Mine, too!");
+}
