@@ -1,0 +1,17 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter12/s4-mystery2
+BJP5 Self-Check 12.4: mystery2
+
+public void mystery2(int n) {
+    if (n > 100) {
+        System.out.print(n);
+    } else {
+        mystery2(2 * n);
+        System.out.print(", " + n);
+    }
+}
+
+mystery2(113);	    113
+mystery2(70);	    140, 70
+mystery2(42);	    168, 84, 42
+mystery2(30);	    120, 60, 30
+mystery2(10);	    160, 80, 40, 20, 10
