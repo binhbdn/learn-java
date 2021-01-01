@@ -1,0 +1,19 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter4/s6-ifElseMystery2
+BJP5 Self-Check 4.6: ifElseMystery2
+
+public static void ifElseMystery2(int a, int b) {
+    if (a * 2 < b) {
+        a = a * 3;
+    }
+    if (b < a) {
+        b++;
+    } else {
+        a--;
+    }
+    System.out.println(a + " " + b);
+}
+
+ifElseMystery2(10, 2);	    10 3
+ifElseMystery2(3, 8);	    9 9
+ifElseMystery2(4, 4);	    3 4
+ifElseMystery2(10, 30);	    29 30
