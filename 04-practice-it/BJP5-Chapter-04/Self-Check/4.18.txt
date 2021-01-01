@@ -1,0 +1,4 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter4/s18-doubleSumError
+BJP5 Self-Check 4.18: doubleSumError
+
+Real numbers are represented as imprecise floating-point numbers in the computer, and the limited precision led to a roundoff error.
