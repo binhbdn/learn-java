@@ -1,0 +1,12 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter4/s17-cumulativeProduct
+BJP5 Self-Check 4.17: cumulativeProduct
+
+Scanner sc = new Scanner(System.in);
+System.out.print("How many numbers? ");
+int n = sc.nextInt();
+int product = 1;
+for (int i=0; i<n; i++) {
+    System.out.print("Next number --> ");
+    product *= sc.nextInt();
+}
+System.out.print("Product = " + product);
