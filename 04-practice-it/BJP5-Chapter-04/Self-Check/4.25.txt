@@ -1,0 +1,5 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter4/s25-printTriangleTypePreconditions
+BJP5 Self-Check 4.25: printTriangleTypePreconditions
+
+The three side lengths must be positive integers.
+No side's length may exceed the sum of any two other side lengths.
