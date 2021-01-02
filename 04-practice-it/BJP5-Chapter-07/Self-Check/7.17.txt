@@ -1,0 +1,13 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter7/s17-allLess
+BJP5 Self-Check 7.17: allLess
+
+public static boolean allLess(int[] a, int[] b) {
+    if (a.length != b.length) {
+        return false;
+    } else {
+        for (int i=0; i<a.length; i++) {
+            if (a[i] >= b[i]) return false;
+        }
+    }
+    return true;
+}
