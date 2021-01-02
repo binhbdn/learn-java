@@ -1,0 +1,4 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter7/s18-arraySwap
+BJP5 Self-Check 7.18: arraySwap
+
+Unlike integers, arrays are objects and use reference semantics.
