@@ -1,0 +1,17 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter4/s28-quadraticPreconditions
+BJP5 Self-Check 4.28: quadraticPreconditions
+
+public static void quadratic(int a, int b, int c) {
+    double delta = b * b - 4 * a * c;
+    if (a == 0) {
+        throw new IllegalArgumentException("Giá trị a == 0 là không hợp lệ!");
+    }
+    if (delta < 0) {
+        throw new IllegalArgumentException("Delta < 0 -> Phương trình vô nghiệm!");
+    }
+    double r1 = (-b + Math.sqrt(delta)) / (2 * a);
+    double r2 = (-b - Math.sqrt(delta)) / (2 * a);
+
+    System.out.println("First root = " + r1);
+    System.out.println("Second root = " + r2);
+}
