@@ -1,0 +1,12 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter4/s23-lastFirst
+BJP5 Self-Check 4.23: lastFirst
+
+public static String lastFirst(String name) {
+    int spacePos = name.indexOf(" ");
+    return name.substring(spacePos+1) + ", " + name.substring(0,1) + ".";
+}
+
+public static String lastFirst(String name) {
+    String[] parts = name.split(" ");
+    return parts[1] + ", " + parts[0].charAt(0) + ".";
+}
