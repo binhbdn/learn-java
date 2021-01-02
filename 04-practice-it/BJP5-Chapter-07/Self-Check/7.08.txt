@@ -1,0 +1,4 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter7/s8-arrayDeclarationSyntax2
+BJP5 Self-Check 7.8: arrayDeclarationSyntax2
+
+int[] a = {17, -3, 42, 5, 9, 28};
