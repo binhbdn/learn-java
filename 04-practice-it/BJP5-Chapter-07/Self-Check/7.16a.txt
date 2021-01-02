@@ -1,0 +1,10 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter7/s16a-countStrings
+BJP5 Self-Check 7.16a: countStrings
+
+public static int countStrings(String[] a, String s) {
+    int count=0;
+    for (int i=0; i<a.length; i++) {
+        if (s.equals(a[i])) count++;
+    }
+    return count;
+}
