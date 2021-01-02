@@ -1,0 +1,5 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter4/s26-getGradePreconditions
+BJP5 Self-Check 4.26: getGradePreconditions
+
+The parameter's value must be greater than or equal to 0.
+The parameter's value must be less than or equal to 100.
