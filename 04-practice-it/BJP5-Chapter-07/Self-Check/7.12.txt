@@ -1,0 +1,10 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter7/s12-traversal
+BJP5 Self-Check 7.12: traversal
+
+Which of the following best describes an array traversal?
+A sequential processing of each of an array's elements.
+
+Which of the following are examples of problems that can be solved by traversing an array?
+Printing an array's elements.
+Searching an array for a given value.
+Comparing two arrays for equality.
