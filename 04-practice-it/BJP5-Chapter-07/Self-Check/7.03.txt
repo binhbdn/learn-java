@@ -1,0 +1,4 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter7/s3-dataArray
+BJP5 Self-Check 7.3: dataArray
+
+int[] data = {27, 51, 33, -1, 101};
