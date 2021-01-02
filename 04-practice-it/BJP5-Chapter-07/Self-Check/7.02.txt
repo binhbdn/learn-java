@@ -1,0 +1,11 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter7/s2-numbersElements
+BJP5 Self-Check 7.2: numbersElements
+
+Assume that the following array has been defined, though you do not necessarily know its length.
+
+int[] numbers = new int[??];
+What expression should be used:
+
+To access the first element?	numbers[0]
+To access the last element, assuming was created with length 10?	numbers[9]
+To access its last element, regardless of its length?	numbers[numbers.length-1]
