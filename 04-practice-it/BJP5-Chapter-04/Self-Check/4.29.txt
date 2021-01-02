@@ -1,0 +1,8 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter4/s29-printNumOdd
+BJP5 Self-Check 4.29: printNumOdd
+
+// This method should return how many of its three arguments are odd numbers.
+public static void printNumOdd(int n1, int n2, int n3) {
+    int count = Math.abs(n1)%2 + Math.abs(n2)%2 + Math.abs(n3)%2;
+    System.out.println(count + " of the 3 numbers are odd.");
+}
