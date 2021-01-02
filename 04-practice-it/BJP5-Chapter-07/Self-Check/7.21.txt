@@ -1,0 +1,11 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter7/s21-swapPairs
+BJP5 Self-Check 7.21: swapPairs
+
+public static void swapPairs(String[] s) {
+    String tmp;
+    for (int i=0; i<s.length-1; i=i+2) {
+        tmp=s[i];
+        s[i]=s[i+1];
+        s[i+1]=tmp;
+    }
+}
