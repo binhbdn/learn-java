@@ -1,0 +1,6 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter7/s13-printElements
+BJP5 Self-Check 7.13: printElements
+
+for (int i=0; i<data.length; i++) {
+    System.out.println("element [" + i + "] is " + data[i]);
+}
