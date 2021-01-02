@@ -1,0 +1,8 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter7/s15-printBackwards
+BJP5 Self-Check 7.15: printBackwards
+
+public static void printBackwards(int[] a) {
+    for (int i=a.length-1; i>=0; i--) {
+        System.out.println("element [" + i + "] is " + a[i]);
+    }
+}
