@@ -1,0 +1,10 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter7/s10-max
+BJP5 Self-Check 7.10: max
+
+public static int max(int[] a) {
+    int max=Integer.MIN_VALUE;
+    for (int i=0; i<a.length; i++) {
+        if (a[i]>max) max=a[i];
+    }
+    return max;
+}
