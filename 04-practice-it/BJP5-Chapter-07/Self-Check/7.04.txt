@@ -1,0 +1,7 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter7/s4-oddsArray
+BJP5 Self-Check 7.4: oddsArray
+
+int[] odds = new int[22];
+for (int i=0; i<22; i++) {
+    odds[i]=2*i-5;
+}
