@@ -1,0 +1,17 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter7/e5-mode
+BJP5 Exercise 7.5: mode
+
+public static int mode(int[] a) {
+    int[] count = new int[101];
+    for (int i=0; i<a.length; i++) {
+        count[a[i]]++;
+    }
+    int max=0, maxCount=0;
+    for (int i=0; i<count.length; i++) {
+        if (count[i]>maxCount) {
+            max=i;
+            maxCount=count[i];
+        }
+    }
+    return max;
+}
