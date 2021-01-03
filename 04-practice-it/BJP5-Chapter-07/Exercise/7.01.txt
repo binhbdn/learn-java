@@ -1,0 +1,11 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter7/e1-lastIndexOf
+BJP5 Exercise 7.1: lastIndexOf
+
+public static int lastIndexOf(int[] a, int n) {
+    for (int i=a.length-1; i>=0; i--) {
+        if (a[i]==n) {
+            return i;
+        }
+    }
+    return -1;
+}
