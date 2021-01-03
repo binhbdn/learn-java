@@ -1,0 +1,9 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter7/s33-fiveByTenArray
+BJP5 Self-Check 7.33: fiveByTenArray
+
+int[][] table = new int[5][10];
+for (int i=0; i<table.length; i++) {
+    for (int j=0; j<table[0].length; j++) {
+        table[i][j] = i*j;
+    }
+}
