@@ -1,0 +1,16 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter7/e9-minGap
+BJP5 Exercise 7.9: minGap
+
+public static int minGap(int[] a) {
+    if (a.length<2) {
+        return 0;
+    } else {
+        int min=Integer.MAX_VALUE;
+        int tmp;
+        for (int i=0; i<a.length-1; i++) {
+            tmp = a[i+1] - a[i];
+            if (tmp<min) min=tmp;
+        }
+        return min;
+    }
+}
