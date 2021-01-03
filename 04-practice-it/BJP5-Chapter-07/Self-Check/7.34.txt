@@ -1,0 +1,6 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter7/s34-copyColumn
+BJP5 Self-Check 7.34: copyColumn
+
+for (int i=0; i<matrix.length; i++) {
+    matrix[i][4] = matrix[i][1];
+}
