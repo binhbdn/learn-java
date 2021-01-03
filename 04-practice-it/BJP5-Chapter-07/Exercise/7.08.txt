@@ -1,0 +1,7 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter7/e8-median
+BJP5 Exercise 7.8: median
+
+public static int median (int[] a) {
+    Arrays.sort(a);
+    return a[a.length/2];
+}
