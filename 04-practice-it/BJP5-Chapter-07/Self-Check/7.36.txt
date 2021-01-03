@@ -1,0 +1,12 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter7/s36-jaggedArray
+BJP5 Self-Check 7.36: jaggedArray
+
+int[][] jagged = new int[5][];
+int count=0;
+for (int i=0; i<jagged.length; i++) {
+    jagged[i] = new int[i + 1];
+    for (int j=0; j<i+1; j++) {
+        count++;
+        jagged[i][j] = count;
+    }
+}
