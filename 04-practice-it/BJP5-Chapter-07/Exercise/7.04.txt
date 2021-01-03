@@ -1,0 +1,11 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter7/e4-isSorted
+BJP5 Exercise 7.4: isSorted
+
+public static boolean isSorted(double[] a) {
+    for (int i=0; i<a.length-1; i++) {
+        if (a[i]>a[i+1]) {
+            return false;
+        }
+    }
+    return true;
+}
