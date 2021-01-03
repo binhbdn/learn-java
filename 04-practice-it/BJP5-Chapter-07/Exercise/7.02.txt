@@ -1,0 +1,11 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter7/e2-range
+BJP5 Exercise 7.2: range
+
+public static int range(int[] a) {
+    int largest=a[0], smallest=a[0];
+    for (int i=1; i<a.length; i++) {
+        if (a[i]>largest) largest=a[i];
+        if (a[i]<smallest) smallest=a[i];
+    }
+    return largest-smallest+1;
+}
