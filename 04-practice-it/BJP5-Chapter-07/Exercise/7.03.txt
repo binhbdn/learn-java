@@ -1,0 +1,14 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter7/e3-countInRange
+BJP5 Exercise 7.3: countInRange
+
+public static int countInRange(int[] a, int min, int max) {
+    if (max<min) {
+        return 0;
+    } else {
+        int count=0;
+        for (int i=0; i<a.length; i++) {
+            if (min<=a[i] && a[i]<=max) count++;
+        }
+        return count;
+    }
+}
