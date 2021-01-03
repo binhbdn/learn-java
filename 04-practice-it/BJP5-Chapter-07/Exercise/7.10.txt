@@ -1,0 +1,11 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter7/e10-percentEven
+BJP5 Exercise 7.10: percentEven
+
+public static double percentEven(int[] a) {
+    if (a.length==0) return 0.0;
+    int count=0;
+    for (int i=0; i<a.length; i++) {
+        if (a[i]%2==0) count++;
+    }
+    return 100.0*count/a.length;
+}
