@@ -1,0 +1,11 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter7/s30-isPalindrome
+BJP5 Self-Check 7.30: isPalindrome
+
+public static boolean isPalindrome(String[] s) {
+    int len = s.length;
+    if (len==0) return true;
+    for (int i=0; i<=len/2; i++) {
+        if (! s[i].equals(s[len-i-1])) return false;
+    }
+    return true;
+}
