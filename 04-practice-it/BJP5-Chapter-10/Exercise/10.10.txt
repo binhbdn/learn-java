@@ -1,0 +1,16 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter10/e10-removeInRange
+BJP5 Exercise 10.10: removeInRange
+
+public static void removeInRange(ArrayList<Integer> list, int value, int start, int end) {
+    int size=list.size();
+    if (end>size) end=size;
+    if (start<=end) {
+        for (int i=start; i<end; i++) {
+            if (list.get(i)==value) {
+                list.remove(i);
+                end--;
+                i--;
+            }
+        }
+    }
+}
