@@ -1,0 +1,6 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/s6-whatIsAField
+BJP5 Self-Check 8.6: whatIsAField
+
+A field's scope is throughout the class, while a parameter's scope is limited to the method.
+A field is a variable that exists inside of an object, while a parameter is a variable inside a method whose value is passed in from outside.
+Field syntax differs because they can be declared with the 'private' keyword.
