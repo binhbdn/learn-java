@@ -1,0 +1,9 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter7/e16-append
+BJP5 Exercise 7.16: append
+
+public static int[] append(int[] a, int[] b) {
+    int[] c = new int[a.length+b.length];
+    for (int i=0; i<a.length; i++) c[i]=a[i];
+    for (int i=0; i<b.length; i++) c[i+a.length]=b[i];
+    return c;
+}
