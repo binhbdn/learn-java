@@ -1,0 +1,6 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/s10-distancePoint
+BJP5 Self-Check 8.10: distancePoint
+
+public double distance(Point other) {
+    return Math.sqrt(Math.pow(this.getX()-other.getX(),2)+Math.pow(this.getY()-other.getY(),2));
+}
