@@ -1,0 +1,9 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter10/e18-mirror
+BJP5 Exercise 10.18: mirror
+
+public static void mirror(ArrayList<String> list) {
+    int size=list.size();
+    for (int i=size-1; i>=0; i--) {
+        list.add(list.get(i));
+    }
+}
