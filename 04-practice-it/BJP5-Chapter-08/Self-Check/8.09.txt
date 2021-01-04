@@ -1,0 +1,4 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/s9-methodCallSyntax
+BJP5 Self-Check 8.9: methodCallSyntax
+
+double result = acct.computeInterest(42);
