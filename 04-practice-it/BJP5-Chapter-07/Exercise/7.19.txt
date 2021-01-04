@@ -1,0 +1,18 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter7/e19-wordLengths
+BJP5 Exercise 7.19: wordLengths
+
+public static void wordLengths(Scanner console) {
+    int[] array = new int[81];
+    while (console.hasNext()) {
+        array[console.next().length()]++;
+    }
+    for (int i = 1; i < array.length; i++) {
+        if (array[i] != 0) {
+            System.out.printf("%d: %d\t", i, array[i]);
+            for (int j = 0; j < array[i]; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
