@@ -1,0 +1,9 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter10/e4-doubleList
+BJP5 Exercise 10.4: doubleList
+
+public static void doubleList(ArrayList<String> list) {
+    int size = list.size();
+    for (int i=size-1; i>=0; i--) {
+        list.add(i+1, list.get(i));
+    }
+}
