@@ -1,0 +1,16 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter7/e13-longestSortedSequence
+BJP5 Exercise 7.13: longestSortedSequence
+
+public static int longestSortedSequence(int[] a) {
+    if (a.length==0) return 0;
+    int result=1, count=1;
+    for (int i=1; i<a.length; i++) {
+        if (a[i]>=a[i-1]) {
+            count++;
+            if (count>result) result=count;
+        } else {
+            count=1;
+        }
+    }
+    return result;
+}
