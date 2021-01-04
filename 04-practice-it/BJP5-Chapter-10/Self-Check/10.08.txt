@@ -1,0 +1,13 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter10/s8-maxLength
+BJP5 Self-Check 10.8: maxLength
+
+public static int maxLength (ArrayList<String> list) {
+    if (list==null || list.size()==0) return 0;
+    int max=list.get(0).length();
+    int tmp;
+    for (int i=1; i<list.size(); i++) {
+        tmp=list.get(i).length();
+        if (max<tmp) max=tmp;
+    }
+    return max;
+}
