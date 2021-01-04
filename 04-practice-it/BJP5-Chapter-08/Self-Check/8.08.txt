@@ -1,0 +1,4 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/s8-accessorMutator
+BJP5 Self-Check 8.8: accessorMutator
+
+An accessor provides the client access to data in the object, while a mutator lets the client change the object's state.
