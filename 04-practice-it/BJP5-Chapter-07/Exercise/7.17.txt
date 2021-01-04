@@ -1,0 +1,25 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter7/e17-vowelCount
+BJP5 Exercise 7.17: vowelCount
+
+public static int[] vowelCount(String s) {
+    int[] a = new int[5];
+    for (int i=0; i<s.length(); i++) {
+        switch (s.charAt(i)) {
+            case 'a':
+                a[0]++;
+                break;
+            case 'e':
+                a[1]++;
+                break;
+            case 'i':
+                a[2]++;
+                break;
+            case 'o':
+                a[3]++;
+                break;
+            case 'u':
+                a[4]++;
+        }
+    }
+    return a;
+}
