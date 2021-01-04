@@ -1,0 +1,4 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/s2-whatIsAnObject
+BJP5 Self-Check 8.2: whatIsAnObject
+
+An object is an entity that encapsulates related data and behavior, while a class is the blueprint for a type of objects.
