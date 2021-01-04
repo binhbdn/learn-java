@@ -1,0 +1,4 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/s5-CalculatorObject
+BJP5 Self-Check 8.5: CalculatorObject
+
+The state might include the number that has just been computed and a memory feature. The behavior might include methods to add, subtract, multiply, divide, and perhaps advanced math operations such as exponentiation, logarithms, and trigonometric functions.
