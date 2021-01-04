@@ -1,0 +1,28 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/s4-ReferenceMystery3
+BJP5 Self-Check 8.4: ReferenceMystery3
+
+The following program produces 4 lines of output. Write each line of output below as it would appear on the console.
+
+public class ReferenceMystery3 {
+    public static void main(String[] args) {
+        int a = 7;
+        int b = 9;
+        Point p1 = new Point(2, 2);
+        Point p2 = new Point(2, 2);
+        addToXTwice(a, p1);
+        System.out.println(a + " " + b + " " + p1.x + " " + p2.x);
+        addToXTwice(b, p2);
+        System.out.println(a + " " + b + " " + p1.x + " " + p2.x);
+    }
+​
+    public static void addToXTwice(int a, Point p1) {
+        a = a + a;
+        p1.x = a;
+        System.out.println(a + " " + p1.x);
+    }
+}
+
+line 1	    14 14
+line 2	    7 9 14 2
+line 3	    18 18
+line 4	    7 9 14 18
