@@ -1,0 +1,39 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter7/e21-isMagicSquare
+BJP5 Exercise 7.21: isMagicSquare
+
+public static boolean isMagicSquare(int[][] a) {
+    for (int i=0; i<a.length; i++) {
+        if (a[i].length != a.length) return false;
+    }
+    if (a.length<2) return true;
+    int sum_row_0=0;
+    for (int i=0; i<a.length; i++) {
+        sum_row_0 += a[0][i];
+    }
+    int sum;
+    for (int i=1; i<a.length; i++) {
+        sum=0;
+        for (int j=0; j<a.length; j++) {
+            sum += a[i][j];
+        }
+        if (sum != sum_row_0) return false;
+    }
+    for (int i=0; i<a.length; i++) {
+        sum=0;
+        for (int j=0; j<a.length; j++) {
+            sum += a[j][i];
+        }
+        if (sum != sum_row_0) return false;
+    }
+    sum=0;
+    for (int i=0; i<a.length; i++) {
+        sum += a[i][i];
+    }
+    if (sum != sum_row_0) return false;
+    sum=0;
+    for (int i=0; i<a.length; i++) {
+        sum += a[i][a.length-i-1];
+    }
+    if (sum != sum_row_0) return false;
+    return true;
+}
