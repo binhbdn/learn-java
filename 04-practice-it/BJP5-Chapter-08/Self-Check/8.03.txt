@@ -1,0 +1,4 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/s3-StringObject
+BJP5 Self-Check 8.3: StringObject
+
+The state is its sequence of characters, and the behavior is its methods, such as length and indexOf.
