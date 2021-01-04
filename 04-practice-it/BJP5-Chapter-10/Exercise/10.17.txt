@@ -1,0 +1,15 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter10/e17-interleave
+BJP5 Exercise 10.17: interleave
+
+public static void interleave(ArrayList<Integer> a1, ArrayList<Integer> a2) {
+    int size1=a1.size(), size2=a2.size();
+    if (size2>size1) {
+        for (int i=0; i<size2-size1; i++) {
+            a1.add(size1+i, a2.get(size1+i));
+        }
+    }
+    int min=Math.min(size1, size2);
+    for (int i=min-1; i>=0; i--) {
+        a1.add(i+1, a2.get(i));
+    }
+}
