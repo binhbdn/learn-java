@@ -1,0 +1,24 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter10/e21-ComparableCalendarDate
+BJP5 Exercise 10.21: ComparableCalendarDate
+
+public int compareTo(CalendarDate other) {
+    if (this.getYear() > other.getYear()) {
+        return 1;
+    } else if (this.getYear() < other.getYear()) {
+        return -1;
+    } else {
+        if (this.getMonth() > other.getMonth()) {
+            return 1;
+        } else if (this.getMonth() < other.getMonth()) {
+            return -1;
+        } else {
+            if (this.getDay() > other.getDay()) {
+                return 1;
+            } else if (this.getDay() < other.getDay()) {
+                return -1;
+            } else {
+                return 0;
+            }
+        }
+    }
+}
