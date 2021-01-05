@@ -1,0 +1,7 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/s20-thisKeyword
+BJP5 Self-Check 8.20: thisKeyword
+
+It can be used to call the object's methods.
+It can be used to access or set an object's field values
+It refers to the object on which a method or constructor has been called (sometimes called the "implicit parameter").
+It is used to call one constructor from another.
