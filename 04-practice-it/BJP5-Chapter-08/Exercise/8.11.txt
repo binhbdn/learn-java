@@ -1,0 +1,18 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/e11-transactionFeeBankAccount
+BJP5 Exercise 8.11: transactionFeeBankAccount
+
+public boolean transactionFee(double fee) {
+    double deduction = 0.0;
+    
+    for (int i = 1; i <= transactions; i++) {
+        deduction += i * fee;
+    }
+    
+    if (deduction < balance) {
+        balance -= deduction;
+        return true;
+    }
+    
+    balance = 0.0;
+    return false;
+}
