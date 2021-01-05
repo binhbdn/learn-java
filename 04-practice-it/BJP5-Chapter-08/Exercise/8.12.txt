@@ -1,0 +1,12 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/e12-toStringBankAccount
+BJP5 Exercise 8.12: toStringBankAccount
+
+public String toString() {
+    if (balance>0) {
+        return name + ", $" + String.format(Locale.US, "%.2f", balance);
+    } else if (balance<0) {
+        return name + ", -$" + String.format(Locale.US, "%.2f", -balance);
+    } else {
+        return name + ", $0.00";
+    }
+}
