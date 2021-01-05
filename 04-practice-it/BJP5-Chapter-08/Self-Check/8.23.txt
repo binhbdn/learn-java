@@ -1,0 +1,8 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/s23-publicVsPrivate
+BJP5 Self-Check 8.23: publicVsPrivate
+
+What is the difference between the public and private keywords?
+Items declared public may be seen and used from any class, while items declared private may be seen and used only from within their own class.
+
+What items should be declared private?
+Objects' fields should be declared private to provide encapsulation, so that external code can't make unwanted direct modifications to the fields' values.
