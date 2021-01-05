@@ -1,0 +1,13 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/e19-constructorRectangle
+BJP5 Exercise 8.19: constructorRectangle
+
+public Rectangle(Point p, int width, int height) {
+    if (width >= 0 && height >= 0) {
+        this.width = width;
+        this.height = height;
+    } else {
+        throw new IllegalArgumentException();
+    }
+    this.x = p.getX();
+    this.y = p.getY();
+}
