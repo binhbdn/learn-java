@@ -1,0 +1,24 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/e22-intersectionRectangle
+BJP5 Exercise 8.22: intersectionRectangle
+
+public Rectangle intersection(Rectangle rect) {
+    int minX=Math.min(x, rect.getX());
+    int maxX=Math.max(x+width, rect.getX()+rect.getWidth());
+    int maxW=maxX-minX;
+    if (maxW>width+rect.getWidth()) {
+        return null;
+    } else {
+        int minY=Math.min(y, rect.getY());
+        int maxY=Math.max(y+height, rect.getY()+rect.getHeight());
+        int maxH=maxY-minY;
+        if (maxH>height+rect.getHeight()) {
+            return null;
+        } else {
+            int intersectX=Math.max(x, rect.getX());
+            int intersectY=Math.max(y, rect.getY());
+            int intersectW=Math.min(x+width, rect.getX()+rect.getWidth())-intersectX;
+            int intersectH=Math.min(y+height, rect.getY()+rect.getHeight())-intersectY;
+            return new Rectangle(intersectX, intersectY, intersectW, intersectH);
+        }
+    }
+}
