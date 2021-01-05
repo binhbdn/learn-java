@@ -1,0 +1,5 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/s29-whatIsCohesion
+BJP5 Self-Check 8.29: whatIsCohesion
+
+What is cohesion? How can you tell whether a class is cohesive?
+Cohesion is the concept of how well a class's contents go together. You can tell that a class is cohesive when each of its fields stores important state related to the object and each method interacts with that state in some way to produce useful behavior.
