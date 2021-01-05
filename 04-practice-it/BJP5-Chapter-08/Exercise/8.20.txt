@@ -1,0 +1,10 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/e20-containsRectangle
+BJP5 Exercise 8.20: containsRectangle
+
+public boolean contains(int x, int y) {
+    return (this.x<=x && x<=this.x+width && this.y<=y && y<=this.y+height);
+}
+
+public boolean contains(Point p) {
+    return (this.x<=p.getX() && p.getX()<=this.x+width && this.y<=p.getY() && p.getY()<=this.y+height);
+}
