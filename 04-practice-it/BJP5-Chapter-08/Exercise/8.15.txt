@@ -1,0 +1,11 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/e15-getSlopeLine
+BJP5 Exercise 8.15: getSlopeLine
+
+public double getSlope() {
+    double deltaX = p2.getX()-p1.getX();
+    if (deltaX==0) {
+        throw new IllegalStateException();
+    } else {
+        return (p2.getY()-p1.getY())/deltaX;
+    }
+}
