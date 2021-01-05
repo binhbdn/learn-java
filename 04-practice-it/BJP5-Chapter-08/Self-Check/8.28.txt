@@ -1,0 +1,5 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/s28-changeImplementation
+BJP5 Self-Check 8.28: changeImplementation
+
+How does encapsulation allow you to change the internal implementation of a class?
+When a class is encapsulated clients cannot directly access its fields, so changing those fields will not disturb client behavior as long as the external view (method behavior) is consistent.
