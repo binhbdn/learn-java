@@ -1,0 +1,6 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/e3-manhattanDistancePoint
+BJP5 Exercise 8.3: manhattanDistancePoint
+
+public int manhattanDistance(Point other) {
+    return Math.abs(x-other.getX()) + Math.abs(y-other.getY());
+}
