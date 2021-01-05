@@ -1,0 +1,30 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/e6-isCollinearPoint
+BJP5 Exercise 8.6: isCollinearPoint
+
+public boolean isCollinear(Point p1, Point p2) {
+    if (x!=p1.getX() && x!=p2.getX()) {
+        double s1=Math.round(10000*this.slope(p1));
+        double s2=Math.round(10000*this.slope(p2));
+        if (s1==s2) {
+            return true;
+        } else {
+            return false;
+        }
+    } else if (x==p1.getX()) {
+        if (x==p2.getX()) {
+            return true;
+        } else {
+            return false;
+        }
+    } else {
+        return false;
+    }
+}
+public double slope(Point other) {
+    int deltaX=other.getX()-x;
+    if (deltaX==0) {
+        throw new IllegalArgumentException();
+    } else {
+        return 1.0*(other.getY()-y)/deltaX;
+    }
+}
