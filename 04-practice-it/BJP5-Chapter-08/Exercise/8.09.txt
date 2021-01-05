@@ -1,0 +1,8 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/e9-scaleTimeSpan
+BJP5 Exercise 8.9: scaleTimeSpan
+
+public void scale(int factor) {
+    int minutesScale = minutes*factor;
+    hours = hours*factor + minutesScale/60;
+    minutes = minutesScale%60;
+}
