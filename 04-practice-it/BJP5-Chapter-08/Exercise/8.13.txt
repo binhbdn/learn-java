@@ -1,0 +1,16 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/e13-transferBankAccount
+BJP5 Exercise 8.13: transferBankAccount
+
+public void transfer(BankAccount otherAccount, double amount) {
+    if (balance>5 && amount>0) {
+        if (balance>5+amount) {
+            balance -= 5+amount;
+            otherAccount.balance += amount;
+        } else {
+            otherAccount.balance += balance-5;
+            balance = 0.0;
+        }
+        transactions++;
+        otherAccount.transactions++;
+    }
+}
