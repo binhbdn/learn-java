@@ -1,0 +1,11 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/e7-addTimeSpan
+BJP5 Exercise 8.7: addTimeSpan
+
+public void add(TimeSpan span) {
+    hours += span.getHours();
+    minutes += span.getMinutes();
+    if (minutes>=60) {
+        hours += 1;
+        minutes -= 60;
+    }
+}
