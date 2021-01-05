@@ -1,0 +1,9 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/e23-containsOtherRectangle
+BJP5 Exercise 8.23: containsOtherRectangle
+
+public boolean contains(Rectangle rect) {
+    return this.contains(rect.getX(), rect.getY()) && this.contains(rect.getX()+rect.getWidth(), rect.getY()+rect.getHeight());
+}
+public boolean contains(int x, int y) {
+    return (this.x<=x && x<=this.x+width && this.y<=y && y<=this.y+height);
+}
