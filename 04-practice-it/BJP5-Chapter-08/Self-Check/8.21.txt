@@ -1,0 +1,7 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/s21-constructorPoint
+BJP5 Self-Check 8.21: constructorPoint
+
+public Point(Point other) {
+    this.x = other.getX();
+    this.y = other.getY();
+}
