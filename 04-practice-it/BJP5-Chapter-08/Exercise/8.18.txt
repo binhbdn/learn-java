@@ -1,0 +1,40 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/e18-classRectangle
+BJP5 Exercise 8.18: classRectangle
+
+public class Rectangle {
+    private int x;
+    private int y;
+    private int width;
+    private int height;
+    
+    public Rectangle(int x, int y, int width, int height) {
+        if (width >= 0 && height >= 0) {
+            this.width = width;
+            this.height = height;
+        } else {
+            throw new IllegalArgumentException();
+        }
+        this.x = x;
+        this.y = y;
+    }
+    
+    public final int getHeight() {
+        return height;
+    }
+    
+    public final int getWidth() {
+        return width;
+    }
+    
+    public final int getX() {
+        return x;
+    }
+    
+    public final int getY() {
+        return y;
+    }
+    
+    public String toString() {
+        return "Rectangle[x=" + x + ",y=" + y + ",width=" + width + ",height=" + height + "]";
+    }
+}
