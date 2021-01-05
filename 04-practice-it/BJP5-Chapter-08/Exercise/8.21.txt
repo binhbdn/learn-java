@@ -1,0 +1,10 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/e21-unionRectangle
+BJP5 Exercise 8.21: unionRectangle
+
+public Rectangle union(Rectangle rect) {
+    int unionX=Math.min(x, rect.getX());
+    int unionY=Math.min(y, rect.getY());
+    int unionW=Math.max(x+width, rect.getX()+rect.getWidth())-unionX;
+    int unionH=Math.max(y+height, rect.getY()+rect.getHeight())-unionY;
+    return new Rectangle(unionX, unionY, unionW, unionH);
+}
