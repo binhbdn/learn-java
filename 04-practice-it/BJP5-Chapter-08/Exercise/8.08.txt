@@ -1,0 +1,12 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/e8-subtractTimeSpan
+BJP5 Exercise 8.8: subtractTimeSpan
+
+public void subtract(TimeSpan span) {
+    if (minutes<span.getMinutes()) {
+        hours -= span.getHours()+1;
+        minutes -= span.getMinutes()-60;
+    } else {
+        hours -= span.getHours();
+        minutes -= span.getMinutes();
+    }
+}
