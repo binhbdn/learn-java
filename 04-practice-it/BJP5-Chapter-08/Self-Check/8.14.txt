@@ -1,0 +1,6 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/s14-toStringPoint
+BJP5 Self-Check 8.14: toStringPoint
+
+public String toString() {
+    return "java.awt.Point[x=" + this.getX() + ",y=" + this.getY() + "]";
+}
