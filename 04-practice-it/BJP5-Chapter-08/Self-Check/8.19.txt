@@ -1,0 +1,8 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/s19-constructorName
+BJP5 Self-Check 8.19: constructorName
+
+public Name(String firstName, char middleInitial, String lastName) {
+    this.firstName = firstName;
+    this.middleInitial = middleInitial;
+    this.lastName = lastName;
+}
