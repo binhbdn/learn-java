@@ -1,0 +1,22 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/e17-isCollinearLine
+BJP5 Exercise 8.17: isCollinearLine
+
+public boolean isCollinear(Point p) {
+    if (p1.getX()!=p.getX() && p2.getX()!=p.getX()) {
+        double s1 = (double)(p1.getY() - p.getY()) / (p1.getX() - p.getX());
+        double s2 = (double)(p2.getY() - p.getY()) / (p2.getX() - p.getX());
+        if (s1==s2) {
+            return true;
+        } else {
+            return false;
+        }
+    } else if (p1.getX()==p.getX()) {
+        if (p2.getX()==p.getX()) {
+            return true;
+        } else {
+            return false;
+        }
+    } else {
+        return false;
+    }
+}
