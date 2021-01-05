@@ -1,0 +1,8 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/s22-abstraction
+BJP5 Self-Check 8.22: abstraction
+
+What is abstraction?
+The ability to focus on a problem at a high level without worrying about the minor details.
+
+How do objects provide abstraction?
+By giving us more powerful pieces of data that have sophisticated behavior without having to manage and manipulate the data directly.
