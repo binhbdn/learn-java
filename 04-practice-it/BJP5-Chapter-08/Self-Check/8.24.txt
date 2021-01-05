@@ -1,0 +1,5 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/s24-accessPrivateFields
+BJP5 Self-Check 8.24: accessPrivateFields
+
+When fields are made private, client programs cannot see them directly. How do you allow classes access to read these fields' values, without letting the client break the object's encapsulation?
+Create an accessor method that returns the field's value.
