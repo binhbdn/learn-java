@@ -1,0 +1,5 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/s30-consoleIOStock
+BJP5 Self-Check 8.30: consoleIOStock
+
+In textbook section 8.5, why didn't we choose to put the console I/O code into the Stock class?
+Because doing so would force clients to use those exact I/O messages. By keeping I/O code out of Stock, we kept it independent from its clients.
