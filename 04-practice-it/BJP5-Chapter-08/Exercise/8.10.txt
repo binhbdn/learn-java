@@ -1,0 +1,7 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/e10-clearStock
+BJP5 Exercise 8.10: clearStock
+
+public void clear() {
+    this.totalShares=0;
+    this.totalCost=0.0;
+}
