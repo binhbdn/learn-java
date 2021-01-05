@@ -1,0 +1,9 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/s11-getNormalReverseOrderName
+BJP5 Self-Check 8.11: getNormalReverseOrderName
+
+public String getNormalOrder(){
+    return firstName + " " + middleInitial + ". " + lastName;
+}
+public String getReverseOrder(){
+    return lastName + ", " + firstName + " " + middleInitial + ".";
+}
