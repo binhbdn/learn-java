@@ -1,0 +1,11 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/e5-slopePoint
+BJP5 Exercise 8.5: slopePoint
+
+public double slope(Point other) {
+    int deltaX=other.getX()-x;
+    if (deltaX==0) {
+        throw new IllegalArgumentException();
+    } else {
+        return 1.0*(other.getY()-y)/deltaX;
+    }
+}
