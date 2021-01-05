@@ -1,0 +1,6 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/s17-whatIsAConstructor
+BJP5 Self-Check 8.17: whatIsAConstructor
+
+ A constructor is a special method that creates an object and initializes its state.
+ A constructor is declared without a return type.
+ A constructor is the code that is called when you use the 'new' keyword.
