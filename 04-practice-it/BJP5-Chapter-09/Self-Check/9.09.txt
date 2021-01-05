@@ -1,0 +1,6 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter9/s9-CarTruck2
+BJP5 Self-Check 9.9: CarTruck2
+
+System.out.println(mytruck);	vroomvroom
+mytruck.m1();	                truck 1
+mytruck.m2();	                car 1
