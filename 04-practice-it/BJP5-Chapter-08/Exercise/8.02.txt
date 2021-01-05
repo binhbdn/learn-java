@@ -1,0 +1,8 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter8/e2-flipPoint
+BJP5 Exercise 8.2: flipPoint
+
+public void flip() {
+        int temp = -x;
+        x = -y;
+        y = temp;
+}
