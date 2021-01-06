@@ -1,0 +1,18 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter9/e3-HarvardLawyer
+BJP5 Exercise 9.3: HarvardLawyer
+
+public class HarvardLawyer extends Lawyer {
+    public double getSalary() {
+        return super.getSalary()*1.2;
+    }
+    
+    public int getVacationDays() {
+		return super.getVacationDays()+3;
+	}
+
+	public String getVacationForm() {
+		String newForm="";
+        for (int i=0; i<4; i++) newForm+=super.getVacationForm();
+        return newForm;
+	}
+}
