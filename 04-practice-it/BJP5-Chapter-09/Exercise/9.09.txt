@@ -1,0 +1,40 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter9/e9-MinMaxAccount
+BJP5 Exercise 9.9: MinMaxAccount
+
+public class MinMaxAccount extends BankingAccount {
+    private int minBalance;
+    private int maxBalance;
+    
+    public void updateMinMaxBalance() {
+        int balance = getBalance();
+        if (balance < minBalance) {
+            minBalance = balance;
+        } else if (balance > maxBalance) {
+            maxBalance = balance;
+        }
+    }
+    
+    public void debit(Debit d) {
+        super.debit(d);
+        updateMinMaxBalance();
+    }
+    
+    public void credit(Credit c) {
+        super.credit(c);
+        updateMinMaxBalance();
+    }
+    
+    public MinMaxAccount(Startup s){
+        super(s);
+        minBalance = getBalance();
+        maxBalance = getBalance();
+    }
+    
+    public int getMin() {
+        return minBalance;
+    }
+    
+    public int getMax() {
+        return maxBalance;
+    }
+}
