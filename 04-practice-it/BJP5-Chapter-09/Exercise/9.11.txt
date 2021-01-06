@@ -1,0 +1,28 @@
+https://practiceit.cs.washington.edu/problem/view/bjp5/chapter9/e11-FilteredAccount
+BJP5 Exercise 9.11: FilteredAccount
+
+public class FilteredAccount extends Account {
+    private int zeroTransaction;
+    private int totalTransaction;
+    
+    public FilteredAccount (Client c) {
+        super(c);
+        zeroTransaction = 0;
+        totalTransaction = 0;
+    }
+    
+    public boolean process(Transaction t) {
+        totalTransaction++;
+        if (t.value()==0) {
+            zeroTransaction++; 
+            return true;
+        } else {
+            return super.process(t);
+        }
+    }
+
+    public double percentFiltered() {
+        if (totalTransaction==0) return 0.0;
+        return zeroTransaction*100.0/totalTransaction;
+    }  
+}
