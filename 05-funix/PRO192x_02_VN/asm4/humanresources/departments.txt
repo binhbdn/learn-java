@@ -1,0 +1,4 @@
+MD;Managerment Dept;2
+TD;Technical Dept;10
+BD;Bussiness Dept;8
+PD;Project Dept;8
